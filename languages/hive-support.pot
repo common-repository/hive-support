@@ -1,0 +1,2976 @@
+# Copyright (C) 2024 Hive Support
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: Hive Support 1.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/hive-support\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-08-31T12:50:55+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: hive-support\n"
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+#: D:\laragon\www\hivesupport\wp-content\plugins\hive-support\hive-support.php
+msgid "Hive Support"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: D:\laragon\www\hivesupport\wp-content\plugins\hive-support\hive-support.php
+msgid "https://gethivesupport.com/features"
+msgstr ""
+
+#. Description of the plugin
+#: D:\laragon\www\hivesupport\wp-content\plugins\hive-support\hive-support.php
+msgid "One stop support solution for WordPress."
+msgstr ""
+
+#. Author URI of the plugin
+#: D:\laragon\www\hivesupport\wp-content\plugins\hive-support\hive-support.php
+msgid "https://gethivesupport.com"
+msgstr ""
+
+#: hive-support.php:68
+msgid "Please use Hive Support PRO version 1.1.1 or higher."
+msgstr ""
+
+#: build/admin.js:21531
+#: src/admin/components/pages/Activities.jsx:155
+#: build/admin.js:18540
+msgid "Recent Activities"
+msgstr ""
+
+#: build/admin.js:21792
+#: src/admin/components/pages/Agents.jsx:220
+#: build/admin.js:18828
+msgid "Please, Provide a valid Email of an existing user."
+msgstr ""
+
+#: build/admin.js:21831
+#: build/admin.js:21876
+#: build/admin.js:21928
+#: build/admin.js:22360
+#: build/admin.js:22390
+#: build/admin.js:22459
+#: build/admin.js:22499
+#: build/admin.js:23851
+#: build/admin.js:24389
+#: build/admin.js:24419
+#: build/admin.js:24458
+#: build/admin.js:24616
+#: build/admin.js:25235
+#: build/admin.js:25264
+#: build/admin.js:26198
+#: build/admin.js:26221
+#: build/admin.js:26573
+#: build/admin.js:27807
+#: build/admin.js:27837
+#: build/admin.js:27875
+#: build/admin.js:27987
+#: build/admin.js:28383
+#: build/admin.js:28656
+#: build/admin.js:28804
+#: build/admin.js:28997
+#: build/admin.js:29216
+#: build/admin.js:29219
+#: build/admin.js:30688
+#: build/admin.js:30705
+#: build/admin.js:30914
+#: build/admin.js:31148
+#: build/admin.js:31303
+#: build/admin.js:31482
+#: build/admin.js:32646
+#: build/admin.js:32676
+#: build/admin.js:32715
+#: build/admin.js:32752
+#: build/admin.js:32994
+#: build/admin.js:33103
+#: build/admin.js:33250
+#: build/admin.js:33437
+#: build/customer_portal.js:135
+#: src/admin/components/pages/Agents.jsx:265
+#: src/admin/components/pages/Agents.jsx:311
+#: src/admin/components/pages/Agents.jsx:365
+#: src/admin/components/pages/Automotion.jsx:192
+#: src/admin/components/pages/Automotion.jsx:231
+#: src/admin/components/pages/Automotion.jsx:309
+#: src/admin/components/pages/Automotion.jsx:365
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:299
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:336
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:384
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:544
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:1066
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:1485
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:1667
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:1890
+#: src/admin/components/pages/chat/Faq.jsx:67
+#: src/admin/components/pages/chat/Faq.jsx:70
+#: src/admin/components/pages/chat/LiveSettings.jsx:200
+#: src/admin/components/pages/chat/LiveSettings.jsx:218
+#: src/admin/components/pages/chat/LiveSettings.jsx:495
+#: src/admin/components/pages/chat/LiveSettings.jsx:795
+#: src/admin/components/pages/chat/LiveSettings.jsx:977
+#: src/admin/components/pages/chat/LiveSettings.jsx:1183
+#: src/admin/components/pages/chat/WidgetStatus.jsx:299
+#: src/admin/components/pages/chat/WidgetStatus.jsx:336
+#: src/admin/components/pages/chat/WidgetStatus.jsx:384
+#: src/admin/components/pages/chat/WidgetStatus.jsx:427
+#: src/admin/components/pages/chat/WidgetStatus.jsx:742
+#: src/admin/components/pages/chat/WidgetStatus.jsx:873
+#: src/admin/components/pages/chat/WidgetStatus.jsx:1054
+#: src/admin/components/pages/chat/WidgetStatus.jsx:1273
+#: src/admin/components/pages/Reports.jsx:91
+#: src/admin/components/pages/Setting/Binbox.jsx:288
+#: src/admin/components/pages/Setting/Binbox.jsx:325
+#: src/admin/components/pages/Setting/Binbox.jsx:373
+#: src/admin/components/pages/Setting/Binbox.jsx:594
+#: src/admin/components/pages/Setting/Emailnoti.jsx:160
+#: src/admin/components/pages/Setting/Emailnoti.jsx:201
+#: src/admin/components/pages/Setting/LicenseActive.jsx:107
+#: src/admin/components/pages/Setting/LicenseActive.jsx:134
+#: src/admin/components/pages/SingleTicket.jsx:118
+#: src/frontend/components/AddTicket.jsx:155
+#: build/admin.js:18873
+#: build/admin.js:18919
+#: build/admin.js:18973
+#: build/admin.js:19510
+#: build/admin.js:19549
+#: build/admin.js:19627
+#: build/admin.js:19683
+#: build/admin.js:21405
+#: build/admin.js:22000
+#: build/admin.js:22037
+#: build/admin.js:22085
+#: build/admin.js:22306
+#: build/admin.js:23072
+#: build/admin.js:23113
+#: build/admin.js:24169
+#: build/admin.js:24196
+#: build/admin.js:24571
+#: build/admin.js:26296
+#: build/admin.js:26333
+#: build/admin.js:26381
+#: build/admin.js:26541
+#: build/admin.js:27063
+#: build/admin.js:27482
+#: build/admin.js:27664
+#: build/admin.js:27887
+#: build/admin.js:28170
+#: build/admin.js:28173
+#: build/admin.js:29965
+#: build/admin.js:29983
+#: build/admin.js:30260
+#: build/admin.js:30560
+#: build/admin.js:30742
+#: build/admin.js:30948
+#: build/admin.js:32199
+#: build/admin.js:32236
+#: build/admin.js:32284
+#: build/admin.js:32327
+#: build/admin.js:32642
+#: build/admin.js:32773
+#: build/admin.js:32954
+#: build/admin.js:33173
+#: build/customer_portal.js:155
+msgid "Something went wrong"
+msgstr ""
+
+#: build/admin.js:21873
+#: src/admin/components/pages/Agents.jsx:308
+#: build/admin.js:18916
+msgid "Agent is updated!"
+msgstr ""
+
+#: build/admin.js:21937
+#: src/admin/components/pages/Agents.jsx:375
+#: build/admin.js:18983
+msgid "No Agents found. Add agents to manage tickets and messages."
+msgstr ""
+
+#: build/admin.js:21961
+#: src/admin/components/pages/Agents.jsx:404
+#: build/admin.js:19012
+msgid "Tickets Assigned"
+msgstr ""
+
+#: build/admin.js:21963
+#: src/admin/components/pages/Agents.jsx:410
+#: build/admin.js:19018
+msgid "Tickets Solved"
+msgstr ""
+
+#: build/admin.js:21965
+#: build/admin.js:24658
+#: build/admin.js:28028
+#: src/admin/components/pages/Agents.jsx:416
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:586
+#: src/admin/components/pages/Setting/Binbox.jsx:636
+#: build/admin.js:19024
+#: build/admin.js:22348
+#: build/admin.js:26583
+msgid "Email:"
+msgstr ""
+
+#: build/admin.js:21991
+#: src/admin/components/pages/Agents.jsx:448
+#: build/admin.js:19056
+msgid "Update Support Staff"
+msgstr ""
+
+#: build/admin.js:21991
+#: src/admin/components/pages/Agents.jsx:450
+#: build/admin.js:19058
+msgid "Update basic information and access permissions of a Support Staff"
+msgstr ""
+
+#: build/admin.js:22002
+#: build/admin.js:22100
+#: src/admin/components/pages/Agents.jsx:464
+#: src/admin/components/pages/Agents.jsx:613
+#: build/admin.js:19072
+#: build/admin.js:19221
+msgid "Job Title (Ex. Developer, Support Staff)"
+msgstr ""
+
+#: build/admin.js:22008
+#: build/admin.js:22107
+#: src/admin/components/pages/Agents.jsx:471
+#: src/admin/components/pages/Agents.jsx:621
+#: build/admin.js:19079
+#: build/admin.js:19229
+msgid "First Name"
+msgstr ""
+
+#: build/admin.js:22015
+#: build/admin.js:22115
+#: src/admin/components/pages/Agents.jsx:479
+#: src/admin/components/pages/Agents.jsx:630
+#: build/admin.js:19087
+#: build/admin.js:19238
+msgid "Last Name"
+msgstr ""
+
+#: build/admin.js:22023
+#: src/admin/components/pages/Agents.jsx:489
+#: build/admin.js:19097
+msgid "Slack Id:"
+msgstr ""
+
+#: build/admin.js:22034
+#: src/admin/components/pages/Agents.jsx:504
+#: build/admin.js:19112
+msgid "Telegram Id:"
+msgstr ""
+
+#: build/admin.js:22036
+#: src/admin/components/pages/Agents.jsx:508
+#: build/admin.js:19116
+msgid "Telegram Id"
+msgstr ""
+
+#: build/admin.js:22047
+#: build/admin.js:22134
+#: src/admin/components/pages/Agents.jsx:520
+#: src/admin/components/pages/Agents.jsx:651
+#: build/admin.js:19128
+#: build/admin.js:19259
+msgid "Access Permissions"
+msgstr ""
+
+#: build/admin.js:22062
+#: src/admin/components/pages/Agents.jsx:544
+#: build/admin.js:19152
+msgid "Update Staff"
+msgstr ""
+
+#: build/admin.js:22071
+#: build/admin.js:22475
+#: build/admin.js:24582
+#: build/admin.js:27956
+#: src/admin/components/pages/Agents.jsx:568
+#: src/admin/components/pages/Automotion.jsx:332
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:501
+#: src/admin/components/pages/Setting/Binbox.jsx:549
+#: build/admin.js:19176
+#: build/admin.js:19650
+#: build/admin.js:22261
+#: build/admin.js:26498
+msgid "Are you sure?"
+msgstr ""
+
+#: build/admin.js:22076
+#: src/admin/components/pages/Agents.jsx:574
+#: build/admin.js:19182
+msgid "Fallback Agent"
+msgstr ""
+
+#: build/admin.js:22089
+#: src/admin/components/pages/Agents.jsx:591
+#: build/admin.js:19199
+msgid "Delete Agent"
+msgstr ""
+
+#: build/admin.js:22091
+#: src/admin/components/pages/Agents.jsx:597
+#: build/admin.js:19205
+msgid "Add on Support Staff"
+msgstr ""
+
+#: build/admin.js:22091
+#: src/admin/components/pages/Agents.jsx:599
+#: build/admin.js:19207
+msgid "To manage support tickets created by customers you can add support staffs"
+msgstr ""
+
+#: build/admin.js:22123
+#: src/admin/components/pages/Agents.jsx:639
+#: build/admin.js:19247
+msgid "Email Address"
+msgstr ""
+
+#: build/admin.js:22150
+#: src/admin/components/pages/Agents.jsx:676
+#: build/admin.js:19284
+msgid "Add Staff"
+msgstr ""
+
+#: build/admin.js:22152
+#: build/admin.js:22882
+#: build/admin.js:23414
+#: build/admin.js:29796
+#: build/admin.js:30288
+#: src/admin/components/pages/Agents.jsx:687
+#: src/admin/components/pages/Automotion.jsx:952
+#: src/admin/components/pages/chat/LiveChatList.jsx:380
+#: src/admin/components/pages/chat/LiveDash.jsx:330
+#: src/admin/components/pages/Dashboard.jsx:584
+#: build/admin.js:19295
+#: build/admin.js:20270
+#: build/admin.js:20902
+#: build/admin.js:28867
+#: build/admin.js:29500
+msgid "Title"
+msgstr ""
+
+#: build/admin.js:22152
+#: src/admin/components/pages/Agents.jsx:688
+#: build/admin.js:19296
+msgid "Assigned"
+msgstr ""
+
+#: build/admin.js:22152
+#: src/admin/components/pages/Agents.jsx:689
+#: build/admin.js:19297
+msgid "Solved"
+msgstr ""
+
+#: build/admin.js:22152
+#: src/admin/components/pages/Agents.jsx:690
+#: build/admin.js:19298
+msgid "Email"
+msgstr ""
+
+#: build/admin.js:22152
+#: build/admin.js:22736
+#: build/admin.js:22884
+#: src/admin/components/pages/Agents.jsx:691
+#: src/admin/components/pages/Automotion.jsx:684
+#: src/admin/components/pages/Automotion.jsx:953
+#: build/admin.js:19299
+#: build/admin.js:20002
+#: build/admin.js:20271
+msgid "Actions"
+msgstr ""
+
+#: build/admin.js:22336
+#: build/admin.js:22365
+#: src/admin/components/pages/Automotion.jsx:161
+#: src/admin/components/pages/Automotion.jsx:198
+#: build/admin.js:19479
+#: build/admin.js:19516
+msgid "Please add a title for the automation."
+msgstr ""
+
+#: build/admin.js:22353
+#: src/admin/components/pages/Automotion.jsx:184
+#: build/admin.js:19502
+msgid "Automation is successfully added!"
+msgstr ""
+
+#: build/admin.js:22383
+#: src/admin/components/pages/Automotion.jsx:223
+#: build/admin.js:19541
+msgid "Automation is successfully updated!"
+msgstr ""
+
+#: build/admin.js:22430
+#: src/admin/components/pages/Automotion.jsx:275
+#: build/admin.js:19593
+msgid "Not a valid automation."
+msgstr ""
+
+#: build/admin.js:22481
+#: src/admin/components/pages/Automotion.jsx:341
+#: build/admin.js:19659
+msgid "Delete Automation"
+msgstr ""
+
+#: build/admin.js:22588
+#: src/admin/components/pages/Automotion.jsx:464
+#: build/admin.js:19782
+msgid "Automation"
+msgstr ""
+
+#: build/admin.js:22594
+#: src/admin/components/pages/Automotion.jsx:470
+#: build/admin.js:19788
+msgid "+ Add New Automation"
+msgstr ""
+
+#: build/admin.js:22621
+#: src/admin/components/pages/Automotion.jsx:501
+#: build/admin.js:19819
+msgid "+ Trigger Event"
+msgstr ""
+
+#: build/admin.js:22633
+#: src/admin/components/pages/Automotion.jsx:516
+#: build/admin.js:19834
+msgid "On Ticket Created"
+msgstr ""
+
+#: build/admin.js:22636
+#: src/admin/components/pages/Automotion.jsx:522
+#: build/admin.js:19840
+msgid "On Customer Response"
+msgstr ""
+
+#: build/admin.js:22648
+#: src/admin/components/pages/Automotion.jsx:541
+#: build/admin.js:19859
+msgid "Condition"
+msgstr ""
+
+#: build/admin.js:22664
+#: src/admin/components/pages/Automotion.jsx:560
+#: build/admin.js:19878
+msgid "Match any Conditions"
+msgstr ""
+
+#: build/admin.js:22676
+#: src/admin/components/pages/Automotion.jsx:578
+#: build/admin.js:19896
+msgid "Match all Conditions"
+msgstr ""
+
+#: build/admin.js:22692
+#: src/admin/components/pages/Automotion.jsx:601
+#: build/admin.js:19919
+msgid "If Subject Contains"
+msgstr ""
+
+#: build/admin.js:22695
+#: src/admin/components/pages/Automotion.jsx:607
+#: build/admin.js:19925
+msgid "If Message Contains"
+msgstr ""
+
+#: build/admin.js:22698
+#: src/admin/components/pages/Automotion.jsx:613
+#: build/admin.js:19931
+msgid "If Priority is"
+msgstr ""
+
+#: build/admin.js:22701
+#: src/admin/components/pages/Automotion.jsx:619
+#: build/admin.js:19937
+msgid "If Mailbox is"
+msgstr ""
+
+#: build/admin.js:22730
+#: build/admin.js:22849
+#: src/admin/components/pages/Automotion.jsx:674
+#: src/admin/components/pages/Automotion.jsx:891
+#: build/admin.js:19992
+#: build/admin.js:20209
+msgid "Add new Condition"
+msgstr ""
+
+#: build/admin.js:22776
+#: src/admin/components/pages/Automotion.jsx:741
+#: build/admin.js:20059
+msgid "Assign an Agent"
+msgstr ""
+
+#: build/admin.js:22779
+#: build/admin.js:23999
+#: build/admin.js:29346
+#: src/admin/components/pages/Automotion.jsx:747
+#: src/admin/components/pages/chat/Faq.jsx:216
+#: src/admin/components/pages/Responses.jsx:91
+#: build/admin.js:20065
+#: build/admin.js:21563
+#: build/admin.js:28319
+msgid "Add Response"
+msgstr ""
+
+#: build/admin.js:22782
+#: src/admin/components/pages/Automotion.jsx:753
+#: build/admin.js:20071
+msgid "Add Internal(Private) note"
+msgstr ""
+
+#: build/admin.js:22785
+#: src/admin/components/pages/Automotion.jsx:759
+#: build/admin.js:20077
+msgid "Close ticket"
+msgstr ""
+
+#: build/admin.js:22788
+#: src/admin/components/pages/Automotion.jsx:765
+#: build/admin.js:20083
+msgid "Delete ticket"
+msgstr ""
+
+#: build/admin.js:22817
+#: build/admin.js:23215
+#: build/admin.js:29748
+#: build/admin.js:30240
+#: src/admin/components/pages/Automotion.jsx:820
+#: src/admin/components/pages/chat/LiveChatList.jsx:300
+#: src/admin/components/pages/chat/LiveDash.jsx:250
+#: src/admin/components/pages/Dashboard.jsx:355
+#: build/admin.js:20138
+#: build/admin.js:20673
+#: build/admin.js:28787
+#: build/admin.js:29420
+msgid "Select Agent"
+msgstr ""
+
+#: build/admin.js:22831
+#: src/admin/components/pages/Automotion.jsx:848
+#: build/admin.js:20166
+msgid "Select Fallback Agent"
+msgstr ""
+
+#: build/admin.js:22861
+#: src/admin/components/pages/Automotion.jsx:910
+#: build/admin.js:20228
+msgid "Automation Title"
+msgstr ""
+
+#: build/admin.js:22867
+#: src/admin/components/pages/Automotion.jsx:917
+#: build/admin.js:20235
+msgid "Provide a title for the automation"
+msgstr ""
+
+#: build/admin.js:22882
+#: src/admin/components/pages/Automotion.jsx:951
+#: build/admin.js:20269
+msgid "ID"
+msgstr ""
+
+#: build/admin.js:23097
+#: build/customer_portal.js:1027
+#: src/admin/components/pages/Dashboard.jsx:185
+#: src/frontend/components/Tickets.jsx:118
+#: build/admin.js:20503
+#: build/customer_portal.js:1329
+msgid "New Ticket"
+msgstr ""
+
+#: build/admin.js:23099
+#: build/customer_portal.js:1045
+#: src/admin/components/pages/Dashboard.jsx:186
+#: src/frontend/components/Tickets.jsx:141
+#: build/admin.js:20504
+#: build/customer_portal.js:1352
+msgid "New Reply Added"
+msgstr ""
+
+#: build/admin.js:23130
+#: src/admin/components/pages/Dashboard.jsx:248
+#: build/admin.js:20566
+msgid "Total Tickets"
+msgstr ""
+
+#: build/admin.js:23134
+#: src/admin/components/pages/Dashboard.jsx:254
+#: build/admin.js:20572
+msgid "Waiting Tickets"
+msgstr ""
+
+#: build/admin.js:23138
+#: src/admin/components/pages/Dashboard.jsx:260
+#: build/admin.js:20578
+msgid "Open Tickets"
+msgstr ""
+
+#: build/admin.js:23142
+#: src/admin/components/pages/Dashboard.jsx:266
+#: build/admin.js:20584
+msgid "Resolved Tickets"
+msgstr ""
+
+#: build/admin.js:23165
+#: build/admin.js:23414
+#: build/admin.js:27036
+#: build/admin.js:27349
+#: build/admin.js:29704
+#: build/admin.js:29796
+#: build/admin.js:30190
+#: build/admin.js:30288
+#: build/admin.js:32064
+#: src/admin/components/pages/chat/LiveChatList.jsx:256
+#: src/admin/components/pages/chat/LiveChatList.jsx:381
+#: src/admin/components/pages/chat/LiveDash.jsx:203
+#: src/admin/components/pages/chat/LiveDash.jsx:331
+#: src/admin/components/pages/chat/SingleChat.jsx:495
+#: src/admin/components/pages/Dashboard.jsx:287
+#: src/admin/components/pages/Dashboard.jsx:585
+#: src/admin/components/pages/SingleTicket.jsx:789
+#: src/admin/components/pages/TicketsTable.jsx:25
+#: build/admin.js:20605
+#: build/admin.js:20903
+#: build/admin.js:25242
+#: build/admin.js:25818
+#: build/admin.js:28743
+#: build/admin.js:28868
+#: build/admin.js:29373
+#: build/admin.js:29501
+#: build/admin.js:31602
+msgid "Status"
+msgstr ""
+
+#: build/admin.js:23173
+#: build/admin.js:29712
+#: build/admin.js:30198
+#: src/admin/components/pages/chat/LiveChatList.jsx:265
+#: src/admin/components/pages/chat/LiveDash.jsx:212
+#: src/admin/components/pages/Dashboard.jsx:297
+#: build/admin.js:20615
+#: build/admin.js:28752
+#: build/admin.js:29382
+msgid "Select Status"
+msgstr ""
+
+#: build/admin.js:23175
+#: build/admin.js:27042
+#: build/admin.js:29714
+#: build/admin.js:30200
+#: build/admin.js:32070
+#: src/admin/components/pages/chat/LiveChatList.jsx:266
+#: src/admin/components/pages/chat/LiveDash.jsx:213
+#: src/admin/components/pages/chat/SingleChat.jsx:501
+#: src/admin/components/pages/Dashboard.jsx:300
+#: src/admin/components/pages/SingleTicket.jsx:796
+#: build/admin.js:20618
+#: build/admin.js:25249
+#: build/admin.js:28753
+#: build/admin.js:29383
+#: build/admin.js:31608
+msgid "Open"
+msgstr ""
+
+#: build/admin.js:23177
+#: build/admin.js:27044
+#: build/admin.js:29716
+#: build/admin.js:30202
+#: build/admin.js:32072
+#: src/admin/components/pages/chat/LiveChatList.jsx:267
+#: src/admin/components/pages/chat/LiveDash.jsx:214
+#: src/admin/components/pages/chat/SingleChat.jsx:502
+#: src/admin/components/pages/Dashboard.jsx:303
+#: src/admin/components/pages/SingleTicket.jsx:799
+#: build/admin.js:20621
+#: build/admin.js:25252
+#: build/admin.js:28754
+#: build/admin.js:29384
+#: build/admin.js:31609
+msgid "Waiting"
+msgstr ""
+
+#: build/admin.js:23179
+#: build/admin.js:29718
+#: build/admin.js:30204
+#: src/admin/components/pages/chat/LiveChatList.jsx:268
+#: src/admin/components/pages/chat/LiveDash.jsx:215
+#: src/admin/components/pages/Dashboard.jsx:306
+#: build/admin.js:20624
+#: build/admin.js:28755
+#: build/admin.js:29385
+msgid "Closed"
+msgstr ""
+
+#: build/admin.js:23183
+#: build/admin.js:27058
+#: build/admin.js:29722
+#: build/admin.js:30208
+#: src/admin/components/pages/chat/LiveChatList.jsx:273
+#: src/admin/components/pages/chat/LiveDash.jsx:220
+#: src/admin/components/pages/Dashboard.jsx:312
+#: src/admin/components/pages/SingleTicket.jsx:826
+#: build/admin.js:20630
+#: build/admin.js:25279
+#: build/admin.js:28760
+#: build/admin.js:29390
+msgid "Priority"
+msgstr ""
+
+#: build/admin.js:23191
+#: build/admin.js:29730
+#: build/admin.js:30216
+#: build/customer_portal.js:1091
+#: src/admin/components/pages/chat/LiveChatList.jsx:282
+#: src/admin/components/pages/chat/LiveDash.jsx:229
+#: src/admin/components/pages/Dashboard.jsx:322
+#: src/frontend/components/default-fields.js:23
+#: build/admin.js:20640
+#: build/admin.js:28769
+#: build/admin.js:29399
+#: build/customer_portal.js:1451
+msgid "Select Priority"
+msgstr ""
+
+#: build/admin.js:23193
+#: build/admin.js:27064
+#: build/admin.js:29732
+#: build/admin.js:30218
+#: src/admin/components/pages/chat/LiveChatList.jsx:283
+#: src/admin/components/pages/chat/LiveDash.jsx:230
+#: src/admin/components/pages/Dashboard.jsx:325
+#: src/admin/components/pages/SingleTicket.jsx:836
+#: build/admin.js:20643
+#: build/admin.js:25289
+#: build/admin.js:28770
+#: build/admin.js:29400
+msgid "Normal"
+msgstr ""
+
+#: build/admin.js:23195
+#: build/admin.js:27066
+#: build/admin.js:30220
+#: src/admin/components/pages/chat/LiveDash.jsx:231
+#: src/admin/components/pages/Dashboard.jsx:328
+#: src/admin/components/pages/SingleTicket.jsx:839
+#: build/admin.js:20646
+#: build/admin.js:25292
+#: build/admin.js:29401
+msgid "High"
+msgstr ""
+
+#: build/admin.js:23197
+#: build/admin.js:27068
+#: build/admin.js:30222
+#: src/admin/components/pages/chat/LiveDash.jsx:232
+#: src/admin/components/pages/Dashboard.jsx:331
+#: src/admin/components/pages/SingleTicket.jsx:842
+#: build/admin.js:20649
+#: build/admin.js:25295
+#: build/admin.js:29402
+msgid "Urgent"
+msgstr ""
+
+#: build/admin.js:23199
+#: build/admin.js:27070
+#: build/admin.js:30224
+#: src/admin/components/pages/chat/LiveDash.jsx:233
+#: src/admin/components/pages/Dashboard.jsx:333
+#: src/admin/components/pages/SingleTicket.jsx:845
+#: build/admin.js:20651
+#: build/admin.js:25298
+#: build/admin.js:29403
+msgid "Low"
+msgstr ""
+
+#: build/admin.js:23201
+#: build/admin.js:27072
+#: build/admin.js:29734
+#: build/admin.js:30226
+#: src/admin/components/pages/chat/LiveChatList.jsx:284
+#: src/admin/components/pages/chat/LiveDash.jsx:234
+#: src/admin/components/pages/Dashboard.jsx:335
+#: src/admin/components/pages/SingleTicket.jsx:848
+#: build/admin.js:20653
+#: build/admin.js:25301
+#: build/admin.js:28771
+#: build/admin.js:29404
+msgid "Medium"
+msgstr ""
+
+#: build/admin.js:23203
+#: build/admin.js:27074
+#: build/admin.js:29736
+#: build/admin.js:30228
+#: src/admin/components/pages/chat/LiveChatList.jsx:285
+#: src/admin/components/pages/chat/LiveDash.jsx:235
+#: src/admin/components/pages/Dashboard.jsx:338
+#: src/admin/components/pages/SingleTicket.jsx:851
+#: build/admin.js:20656
+#: build/admin.js:25304
+#: build/admin.js:28772
+#: build/admin.js:29405
+msgid "Critical"
+msgstr ""
+
+#: build/admin.js:23207
+#: build/admin.js:29740
+#: build/admin.js:30232
+#: src/admin/components/pages/chat/LiveChatList.jsx:291
+#: src/admin/components/pages/chat/LiveDash.jsx:241
+#: src/admin/components/pages/Dashboard.jsx:345
+#: build/admin.js:20663
+#: build/admin.js:28778
+#: build/admin.js:29411
+msgid "Agent"
+msgstr ""
+
+#: build/admin.js:23223
+#: build/admin.js:26980
+#: build/admin.js:29756
+#: build/admin.js:30248
+#: src/admin/components/pages/chat/LiveChatList.jsx:315
+#: src/admin/components/pages/chat/LiveDash.jsx:265
+#: src/admin/components/pages/Dashboard.jsx:375
+#: src/admin/components/pages/SingleTicket.jsx:660
+#: build/admin.js:20693
+#: build/admin.js:25113
+#: build/admin.js:28802
+#: build/admin.js:29435
+msgid "Customer"
+msgstr ""
+
+#: build/admin.js:23231
+#: build/admin.js:29764
+#: build/admin.js:30256
+#: src/admin/components/pages/chat/LiveChatList.jsx:324
+#: src/admin/components/pages/chat/LiveDash.jsx:274
+#: src/admin/components/pages/Dashboard.jsx:385
+#: build/admin.js:20703
+#: build/admin.js:28811
+#: build/admin.js:29444
+msgid "Select User"
+msgstr ""
+
+#: build/admin.js:23239
+#: build/admin.js:29772
+#: build/admin.js:30264
+#: src/admin/components/pages/chat/LiveChatList.jsx:339
+#: src/admin/components/pages/chat/LiveDash.jsx:289
+#: src/admin/components/pages/Dashboard.jsx:405
+#: build/admin.js:20723
+#: build/admin.js:28826
+#: build/admin.js:29459
+msgid "Mailbox"
+msgstr ""
+
+#: build/admin.js:23247
+#: build/admin.js:29780
+#: build/admin.js:30272
+#: src/admin/components/pages/chat/LiveChatList.jsx:348
+#: src/admin/components/pages/chat/LiveDash.jsx:298
+#: src/admin/components/pages/Dashboard.jsx:415
+#: build/admin.js:20733
+#: build/admin.js:28835
+#: build/admin.js:29468
+msgid "Select Mailbox"
+msgstr ""
+
+#: build/admin.js:23258
+#: build/admin.js:29791
+#: build/admin.js:30283
+#: src/admin/components/pages/chat/LiveChatList.jsx:367
+#: src/admin/components/pages/chat/LiveDash.jsx:317
+#: src/admin/components/pages/Dashboard.jsx:439
+#: build/admin.js:20757
+#: build/admin.js:28854
+#: build/admin.js:29487
+msgid "Reset Filter"
+msgstr ""
+
+#: build/admin.js:23277
+#: src/admin/components/pages/Dashboard.jsx:474
+#: build/admin.js:20792
+msgid "Ticket(s) Deleted"
+msgstr ""
+
+#: build/admin.js:23298
+#: src/admin/components/pages/Dashboard.jsx:505
+#: build/admin.js:20823
+msgid "Ticket(s) status updated"
+msgstr ""
+
+#: build/admin.js:23399
+#: src/admin/components/pages/Dashboard.jsx:564
+#: build/admin.js:20882
+msgid "No"
+msgstr ""
+
+#: build/admin.js:23403
+#: src/admin/components/pages/Dashboard.jsx:565
+#: build/admin.js:20883
+msgid "Yes"
+msgstr ""
+
+#: build/admin.js:23414
+#: build/admin.js:27048
+#: build/admin.js:27349
+#: build/admin.js:29796
+#: build/admin.js:30288
+#: build/admin.js:32076
+#: src/admin/components/pages/chat/LiveChatList.jsx:382
+#: src/admin/components/pages/chat/LiveDash.jsx:332
+#: src/admin/components/pages/chat/SingleChat.jsx:507
+#: src/admin/components/pages/Dashboard.jsx:586
+#: src/admin/components/pages/SingleTicket.jsx:807
+#: src/admin/components/pages/TicketsTable.jsx:26
+#: build/admin.js:20904
+#: build/admin.js:25260
+#: build/admin.js:25819
+#: build/admin.js:28869
+#: build/admin.js:29502
+#: build/admin.js:31614
+msgid "Assign"
+msgstr ""
+
+#: build/admin.js:23414
+#: src/admin/components/pages/Dashboard.jsx:587
+#: build/admin.js:20905
+msgid "Date"
+msgstr ""
+
+#: build/admin.js:23731
+#: build/admin.js:27464
+#: src/admin/components/pages/LiveChat.jsx:42
+#: src/admin/components/pages/WidgetSettings.jsx:43
+#: build/admin.js:21261
+#: build/admin.js:25943
+msgid "Chat Widget"
+msgstr ""
+
+#: build/admin.js:23736
+#: build/admin.js:28435
+#: build/admin.js:30965
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:1127
+#: src/admin/components/pages/chat/LiveSettings.jsx:553
+#: src/admin/components/pages/LiveChat.jsx:53
+#: build/admin.js:21272
+#: build/admin.js:27124
+#: build/admin.js:30318
+msgid "Home Window"
+msgstr ""
+
+#: build/admin.js:23739
+#: build/admin.js:28684
+#: build/admin.js:31175
+#: build/admin.js:33131
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:1518
+#: src/admin/components/pages/chat/LiveSettings.jsx:825
+#: src/admin/components/pages/chat/WidgetStatus.jsx:906
+#: src/admin/components/pages/LiveChat.jsx:63
+#: build/admin.js:21282
+#: build/admin.js:27515
+#: build/admin.js:30590
+#: build/admin.js:32806
+msgid "Live Message"
+msgstr ""
+
+#: build/admin.js:23742
+#: build/admin.js:27475
+#: build/admin.js:28842
+#: build/admin.js:31340
+#: build/admin.js:33288
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:1711
+#: src/admin/components/pages/chat/LiveSettings.jsx:1018
+#: src/admin/components/pages/chat/WidgetStatus.jsx:1098
+#: src/admin/components/pages/LiveChat.jsx:73
+#: src/admin/components/pages/WidgetSettings.jsx:74
+#: build/admin.js:21292
+#: build/admin.js:25974
+#: build/admin.js:27708
+#: build/admin.js:30783
+#: build/admin.js:32998
+msgid "Help Tab"
+msgstr ""
+
+#: build/admin.js:23745
+#: src/admin/components/pages/LiveChat.jsx:83
+#: build/admin.js:21302
+msgid "Ai Chat"
+msgstr ""
+
+#: build/admin.js:23822
+#: src/admin/components/pages/Reports.jsx:59
+#: build/admin.js:21373
+msgid "Ticket Received"
+msgstr ""
+
+#: build/admin.js:23828
+#: src/admin/components/pages/Reports.jsx:66
+#: src/admin/components/pages/Setting/Integrations/DiscordInte.jsx:131
+#: src/admin/components/pages/Setting/Integrations/SlackInte.jsx:195
+#: src/admin/components/pages/Setting/Integrations/TeleInte.jsx:146
+#: build/admin.js:21380
+msgid "Ticket Closed"
+msgstr ""
+
+#: build/admin.js:23879
+#: src/admin/components/pages/Reports.jsx:119
+#: build/admin.js:21433
+msgid "Ticket Stats"
+msgstr ""
+
+#: build/admin.js:23888
+#: src/admin/components/pages/Reports.jsx:132
+#: build/admin.js:21446
+msgid "Last 7 Days"
+msgstr ""
+
+#: build/admin.js:23890
+#: src/admin/components/pages/Reports.jsx:135
+#: build/admin.js:21449
+msgid "Last 10 Days"
+msgstr ""
+
+#: build/admin.js:23892
+#: src/admin/components/pages/Reports.jsx:138
+#: build/admin.js:21452
+msgid "Last 15 Days"
+msgstr ""
+
+#: build/admin.js:23894
+#: src/admin/components/pages/Reports.jsx:141
+#: build/admin.js:21455
+msgid "Last 30 Days"
+msgstr ""
+
+#: build/admin.js:23999
+#: build/admin.js:29346
+#: src/admin/components/pages/chat/Faq.jsx:219
+#: src/admin/components/pages/Responses.jsx:94
+#: build/admin.js:21566
+#: build/admin.js:28322
+msgid "Add basic response template to answer users question easily."
+msgstr ""
+
+#: build/admin.js:24021
+#: build/admin.js:29372
+#: src/admin/components/pages/chat/Faq.jsx:251
+#: src/admin/components/pages/Responses.jsx:120
+#: build/admin.js:21592
+#: build/admin.js:28354
+msgid "Add"
+msgstr ""
+
+#: build/admin.js:24042
+#: build/admin.js:29401
+#: src/admin/components/pages/chat/Faq.jsx:296
+#: src/admin/components/pages/Responses.jsx:155
+#: build/admin.js:21627
+#: build/admin.js:28399
+msgid "Add a Template"
+msgstr ""
+
+#: build/admin.js:24059
+#: build/admin.js:24567
+#: build/admin.js:27941
+#: build/admin.js:29419
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:470
+#: src/admin/components/pages/chat/Faq.jsx:334
+#: src/admin/components/pages/Responses.jsx:193
+#: src/admin/components/pages/Setting/Binbox.jsx:518
+#: build/admin.js:21665
+#: build/admin.js:22230
+#: build/admin.js:26467
+#: build/admin.js:28437
+msgid "Delete This Template"
+msgstr ""
+
+#: build/admin.js:24364
+#: build/admin.js:24394
+#: build/admin.js:27782
+#: build/admin.js:27812
+#: build/admin.js:32621
+#: build/admin.js:32651
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:270
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:305
+#: src/admin/components/pages/chat/WidgetStatus.jsx:270
+#: src/admin/components/pages/chat/WidgetStatus.jsx:305
+#: src/admin/components/pages/Setting/Binbox.jsx:259
+#: src/admin/components/pages/Setting/Binbox.jsx:294
+#: build/admin.js:21971
+#: build/admin.js:22006
+#: build/admin.js:26267
+#: build/admin.js:26302
+#: build/admin.js:32170
+#: build/admin.js:32205
+msgid "Please add a title for the Business Inbox."
+msgstr ""
+
+#: build/admin.js:24381
+#: build/admin.js:27799
+#: build/admin.js:32638
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:291
+#: src/admin/components/pages/chat/WidgetStatus.jsx:291
+#: src/admin/components/pages/Setting/Binbox.jsx:280
+#: build/admin.js:21992
+#: build/admin.js:26288
+#: build/admin.js:32191
+msgid "Business inbox is successfully added!"
+msgstr ""
+
+#: build/admin.js:24411
+#: build/admin.js:27829
+#: build/admin.js:32668
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:328
+#: src/admin/components/pages/chat/WidgetStatus.jsx:328
+#: src/admin/components/pages/Setting/Binbox.jsx:317
+#: build/admin.js:22029
+#: build/admin.js:26325
+#: build/admin.js:32228
+msgid "Business inbox is successfully updated!"
+msgstr ""
+
+#: build/admin.js:24429
+#: build/admin.js:27847
+#: build/admin.js:30659
+#: build/admin.js:32686
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:346
+#: src/admin/components/pages/chat/LiveSettings.jsx:162
+#: src/admin/components/pages/chat/WidgetStatus.jsx:346
+#: src/admin/components/pages/Setting/Binbox.jsx:335
+#: build/admin.js:22047
+#: build/admin.js:26343
+#: build/admin.js:29927
+#: build/admin.js:32246
+msgid "Not a valid Business Inbox."
+msgstr ""
+
+#: build/admin.js:24516
+#: build/admin.js:28145
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:749
+#: src/admin/components/pages/Setting/Binbox.jsx:445
+#: build/admin.js:22157
+#: build/admin.js:26746
+msgid "Go to Inbox List"
+msgstr ""
+
+#: build/admin.js:24531
+#: build/admin.js:27905
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:420
+#: src/admin/components/pages/Setting/Binbox.jsx:468
+#: build/admin.js:22180
+#: build/admin.js:26417
+msgid "Short Codes"
+msgstr ""
+
+#: build/admin.js:24537
+#: build/admin.js:27911
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:425
+#: src/admin/components/pages/Setting/Binbox.jsx:473
+#: build/admin.js:22185
+#: build/admin.js:26422
+msgid "First Codes"
+msgstr ""
+
+#: build/admin.js:24563
+#: build/admin.js:27937
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:463
+#: src/admin/components/pages/Setting/Binbox.jsx:511
+#: build/admin.js:22223
+#: build/admin.js:26460
+msgid "Edit This Template"
+msgstr ""
+
+#: build/admin.js:24586
+#: build/admin.js:27960
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:506
+#: src/admin/components/pages/Setting/Binbox.jsx:554
+#: build/admin.js:22266
+#: build/admin.js:26503
+msgid "Fallback Inbox"
+msgstr ""
+
+#: build/admin.js:24598
+#: build/admin.js:24702
+#: build/admin.js:27972
+#: build/admin.js:28072
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:522
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:651
+#: src/admin/components/pages/Setting/Binbox.jsx:570
+#: src/admin/components/pages/Setting/Binbox.jsx:701
+#: build/admin.js:22282
+#: build/admin.js:22413
+#: build/admin.js:26519
+#: build/admin.js:26648
+msgid "Delete Inbox"
+msgstr ""
+
+#: build/admin.js:24665
+#: build/admin.js:28035
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:597
+#: src/admin/components/pages/Setting/Binbox.jsx:647
+#: build/admin.js:22359
+#: build/admin.js:26594
+msgid "Tickets:"
+msgstr ""
+
+#: build/admin.js:24678
+#: build/admin.js:28048
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:611
+#: src/admin/components/pages/Setting/Binbox.jsx:661
+#: build/admin.js:22373
+#: build/admin.js:26608
+msgid "Shortcode:"
+msgstr ""
+
+#: build/admin.js:24697
+#: build/admin.js:28067
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:642
+#: src/admin/components/pages/Setting/Binbox.jsx:692
+#: build/admin.js:22404
+#: build/admin.js:26639
+msgid "Edit Inbox"
+msgstr ""
+
+#: build/admin.js:24740
+#: build/admin.js:25068
+#: build/admin.js:28126
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:722
+#: src/admin/components/pages/Setting/Binbox.jsx:754
+#: src/admin/components/pages/Setting/Copyshortcode.jsx:66
+#: build/admin.js:22466
+#: build/admin.js:22902
+#: build/admin.js:26719
+msgid "Copy Shortcode"
+msgstr ""
+
+#: build/admin.js:24781
+#: src/admin/components/pages/Setting/Binbox.jsx:817
+#: build/admin.js:22529
+msgid "Basic Information"
+msgstr ""
+
+#: build/admin.js:24787
+#: src/admin/components/pages/Setting/Binbox.jsx:821
+#: build/admin.js:22533
+msgid "Inbox Type"
+msgstr ""
+
+#: build/admin.js:24799
+#: src/admin/components/pages/Setting/Binbox.jsx:839
+#: build/admin.js:22551
+msgid "Web Based"
+msgstr ""
+
+#: build/admin.js:24811
+#: src/admin/components/pages/Setting/Binbox.jsx:861
+#: build/admin.js:22573
+msgid "Email And Web Based"
+msgstr ""
+
+#: build/admin.js:24813
+#: src/admin/components/pages/Setting/Binbox.jsx:862
+#: build/admin.js:22574
+msgid "(PRO)"
+msgstr ""
+
+#: build/admin.js:24821
+#: src/admin/components/pages/Setting/Binbox.jsx:870
+#: build/admin.js:22582
+msgid "Inbox Name"
+msgstr ""
+
+#: build/admin.js:24825
+#: build/admin.js:28711
+#: build/admin.js:28721
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:1548
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:1562
+#: src/admin/components/pages/Setting/Binbox.jsx:875
+#: build/admin.js:22587
+#: build/admin.js:27545
+#: build/admin.js:27559
+msgid "Enter Inbox Name"
+msgstr ""
+
+#: build/admin.js:24831
+#: src/admin/components/pages/Setting/Binbox.jsx:882
+#: build/admin.js:22594
+msgid "Support From Email"
+msgstr ""
+
+#: build/admin.js:24841
+#: src/admin/components/pages/Setting/Binbox.jsx:893
+#: build/admin.js:22605
+msgid "Admin Email"
+msgstr ""
+
+#: build/admin.js:24845
+#: build/admin.js:24984
+#: src/admin/components/pages/Setting/Binbox.jsx:898
+#: src/admin/components/pages/Setting/Binbox.jsx:1093
+#: build/admin.js:22610
+#: build/admin.js:22805
+msgid "Enter Admin Email"
+msgstr ""
+
+#: build/admin.js:24851
+#: src/admin/components/pages/Setting/Binbox.jsx:913
+#: build/admin.js:22625
+msgid "Footer Customization"
+msgstr ""
+
+#: build/admin.js:24875
+#: src/admin/components/pages/Setting/Binbox.jsx:964
+#: build/admin.js:22676
+msgid "Email Piping Settings"
+msgstr ""
+
+#: build/admin.js:24885
+#: src/admin/components/pages/Setting/Binbox.jsx:972
+#: build/admin.js:22684
+msgid "Enable Email Piping (Auto Create Ticket/Reply from Email)"
+msgstr ""
+
+#: build/admin.js:24898
+#: src/admin/components/pages/Setting/Binbox.jsx:986
+#: build/admin.js:22698
+msgid "Host"
+msgstr ""
+
+#: build/admin.js:24908
+#: src/admin/components/pages/Setting/Binbox.jsx:996
+#: build/admin.js:22708
+msgid "Port"
+msgstr ""
+
+#: build/admin.js:24918
+#: src/admin/components/pages/Setting/Binbox.jsx:1007
+#: build/admin.js:22719
+msgid "Is secure protocol (SSL/TLS)"
+msgstr ""
+
+#: build/admin.js:24930
+#: src/admin/components/pages/Setting/Binbox.jsx:1020
+#: build/admin.js:22732
+msgid "Protocol Type"
+msgstr ""
+
+#: build/admin.js:24942
+#: src/admin/components/pages/Setting/Binbox.jsx:1035
+#: build/admin.js:22747
+msgid "SSL"
+msgstr ""
+
+#: build/admin.js:24954
+#: src/admin/components/pages/Setting/Binbox.jsx:1051
+#: build/admin.js:22763
+msgid "TLS"
+msgstr ""
+
+#: build/admin.js:24966
+#: src/admin/components/pages/Setting/Binbox.jsx:1069
+#: build/admin.js:22781
+msgid "START TLS"
+msgstr ""
+
+#: build/admin.js:24970
+#: src/admin/components/pages/Setting/Binbox.jsx:1075
+#: build/admin.js:22787
+msgid "Piping Email"
+msgstr ""
+
+#: build/admin.js:24974
+#: build/admin.js:28731
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:1576
+#: src/admin/components/pages/Setting/Binbox.jsx:1080
+#: build/admin.js:22792
+#: build/admin.js:27573
+msgid "Enter Email"
+msgstr ""
+
+#: build/admin.js:24980
+#: src/admin/components/pages/Setting/Binbox.jsx:1087
+#: build/admin.js:22799
+msgid "Piping Email Password"
+msgstr ""
+
+#: build/admin.js:25184
+#: src/admin/components/pages/Setting/Emailnoti.jsx:88
+#: build/admin.js:23000
+msgid "Send Email When:"
+msgstr ""
+
+#: build/admin.js:25197
+#: build/admin.js:26993
+#: build/customer_portal.js:866
+#: build/customer_portal.js:1075
+#: src/admin/components/pages/Setting/Emailnoti.jsx:104
+#: src/admin/components/pages/SingleTicket.jsx:679
+#: src/frontend/components/default-fields.js:5
+#: src/frontend/components/SingleTicket.jsx:424
+#: build/admin.js:23016
+#: build/admin.js:25132
+#: build/customer_portal.js:1116
+#: build/customer_portal.js:1433
+msgid "Subject"
+msgstr ""
+
+#: build/admin.js:25203
+#: src/admin/components/pages/Setting/Emailnoti.jsx:112
+#: build/admin.js:23024
+msgid "Email Body"
+msgstr ""
+
+#: build/admin.js:25258
+#: src/admin/components/pages/Setting/Emailnoti.jsx:194
+#: build/admin.js:23106
+msgid "Email Templates are successfully updated!"
+msgstr ""
+
+#: build/admin.js:25260
+#: src/admin/components/pages/Setting/Emailnoti.jsx:196
+#: build/admin.js:23108
+msgid "Nothing to Update"
+msgstr ""
+
+#: build/admin.js:25277
+#: src/admin/components/pages/Setting/Emailnoti.jsx:217
+#: build/admin.js:23129
+msgid "Email Notifications"
+msgstr ""
+
+#: build/admin.js:25277
+#: src/admin/components/pages/Setting/Emailnoti.jsx:218
+#: build/admin.js:23130
+msgid "Control all types of email notification sent from Hive Support."
+msgstr ""
+
+#: build/admin.js:25279
+#: src/admin/components/pages/Setting/Emailnoti.jsx:220
+#: build/admin.js:23132
+msgid "Save Changes"
+msgstr ""
+
+#: build/admin.js:25465
+#: src/admin/components/pages/Setting/Field.jsx:171
+#: src/admin/components/ui/ticketfield/Dropdown.jsx:20
+#: src/admin/components/ui/ticketfield/NumberField.jsx:19
+#: src/admin/components/ui/ticketfield/Radio.jsx:19
+#: src/admin/components/ui/ticketfield/TextArea.jsx:19
+#: src/admin/components/ui/ticketfield/TextField.jsx:19
+#: build/admin.js:23418
+msgid "Required"
+msgstr ""
+
+#: build/admin.js:25597
+#: src/admin/components/pages/Setting/Fieldrightad.jsx:70
+#: build/admin.js:23552
+msgid "Text Field"
+msgstr ""
+
+#: build/admin.js:25597
+#: src/admin/components/pages/Setting/Fieldrightad.jsx:71
+#: build/admin.js:23553
+msgid "Use it if user required to input single line texts"
+msgstr ""
+
+#: build/admin.js:25623
+#: src/admin/components/pages/Setting/Fieldrightad.jsx:104
+#: build/admin.js:23586
+msgid "Textarea Field"
+msgstr ""
+
+#: build/admin.js:25623
+#: src/admin/components/pages/Setting/Fieldrightad.jsx:105
+#: build/admin.js:23587
+msgid "Use it if user required to input multiline texts"
+msgstr ""
+
+#: build/admin.js:25649
+#: src/admin/components/pages/Setting/Fieldrightad.jsx:136
+#: build/admin.js:23618
+msgid "Number Field"
+msgstr ""
+
+#: build/admin.js:25649
+#: src/admin/components/pages/Setting/Fieldrightad.jsx:137
+#: build/admin.js:23619
+msgid "Use it if user required to input number"
+msgstr ""
+
+#: build/admin.js:25676
+#: src/admin/components/pages/Setting/Fieldrightad.jsx:172
+#: src/admin/components/ui/ticketfield/Dropdown.jsx:11
+#: build/admin.js:23654
+msgid "Dropdown Field"
+msgstr ""
+
+#: build/admin.js:25676
+#: src/admin/components/pages/Setting/Fieldrightad.jsx:173
+#: build/admin.js:23655
+msgid "Use it if user required to select from dropdown"
+msgstr ""
+
+#: build/admin.js:25703
+#: src/admin/components/pages/Setting/Fieldrightad.jsx:205
+#: src/admin/components/ui/ticketfield/Radio.jsx:10
+#: build/admin.js:23687
+msgid "Radio Field"
+msgstr ""
+
+#: build/admin.js:25703
+#: src/admin/components/pages/Setting/Fieldrightad.jsx:206
+#: build/admin.js:23688
+msgid "Use it if user required to choose one from many"
+msgstr ""
+
+#: build/admin.js:25730
+#: src/admin/components/pages/Setting/Fieldrightad.jsx:240
+#: build/admin.js:23722
+msgid "Checkbox Field"
+msgstr ""
+
+#: build/admin.js:25730
+#: src/admin/components/pages/Setting/Fieldrightad.jsx:241
+#: build/admin.js:23723
+msgid "Use it if user required to choose one or more from many"
+msgstr ""
+
+#: build/admin.js:25736
+#: src/admin/components/pages/Setting/Fieldrightad.jsx:250
+#: build/admin.js:23732
+msgid "Form Fields"
+msgstr ""
+
+#: build/admin.js:25819
+#: src/admin/components/pages/Setting/Fieldwrap.jsx:58
+#: build/admin.js:23805
+msgid "Drop Here"
+msgstr ""
+
+#: build/admin.js:25976
+#: src/admin/components/pages/Setting/Integrations.jsx:157
+#: build/admin.js:23969
+msgid "Receive and respond tickets from right into telegram account"
+msgstr ""
+
+#: build/admin.js:25981
+#: src/admin/components/pages/Setting/Integrations.jsx:164
+#: build/admin.js:23976
+msgid "Receive and respond tickets from right into your teams Slack channel"
+msgstr ""
+
+#: build/admin.js:25986
+#: src/admin/components/pages/Setting/Integrations.jsx:171
+#: build/admin.js:23983
+msgid "Receive and respond tickets from right into discord account"
+msgstr ""
+
+#: build/admin.js:26168
+#: src/admin/components/pages/Setting/LicenseActive.jsx:69
+#: build/admin.js:24131
+msgid "Failed to deactivate license:"
+msgstr ""
+
+#: build/admin.js:26171
+#: src/admin/components/pages/Setting/LicenseActive.jsx:72
+#: build/admin.js:24134
+msgid "Error deactivating license:"
+msgstr ""
+
+#: build/admin.js:26176
+#: src/admin/components/pages/Setting/LicenseActive.jsx:80
+#: build/admin.js:24142
+msgid "Please add your license key to activate the plugin."
+msgstr ""
+
+#: build/admin.js:26194
+#: src/admin/components/pages/Setting/LicenseActive.jsx:103
+#: build/admin.js:24165
+msgid "License activation failed. Please try again."
+msgstr ""
+
+#: build/admin.js:26217
+#: src/admin/components/pages/Setting/LicenseActive.jsx:130
+#: build/admin.js:24192
+msgid "License deactivation failed. Please try again."
+msgstr ""
+
+#: build/admin.js:26237
+#: src/admin/components/pages/Setting/LicenseActive.jsx:154
+#: build/admin.js:24216
+msgid "Hive Support License Activation"
+msgstr ""
+
+#: build/admin.js:26239
+#: src/admin/components/pages/Setting/LicenseActive.jsx:158
+#: build/admin.js:24220
+msgid "Your license key is valid and activated"
+msgstr ""
+
+#: build/admin.js:26239
+#: src/admin/components/pages/Setting/LicenseActive.jsx:160
+#: build/admin.js:24222
+msgid "Your license will expire on"
+msgstr ""
+
+#: build/admin.js:26243
+#: src/admin/components/pages/Setting/LicenseActive.jsx:164
+#: build/admin.js:24226
+msgid "Want to deactivate this license?"
+msgstr ""
+
+#: build/admin.js:26246
+#: src/admin/components/pages/Setting/LicenseActive.jsx:169
+#: build/admin.js:24231
+msgid "Deactivate License"
+msgstr ""
+
+#: build/admin.js:26250
+#: src/admin/components/pages/Setting/LicenseActive.jsx:174
+#: build/admin.js:24236
+msgid "License Keys"
+msgstr ""
+
+#: build/admin.js:26255
+#: src/admin/components/pages/Setting/LicenseActive.jsx:180
+#: build/admin.js:24242
+msgid "Enter license key"
+msgstr ""
+
+#: build/admin.js:26260
+#: src/admin/components/pages/Setting/LicenseActive.jsx:187
+#: build/admin.js:24249
+msgid "Activate License"
+msgstr ""
+
+#: build/admin.js:26363
+#: src/admin/components/pages/Setting/Ticketfield.jsx:69
+#: build/admin.js:24327
+msgid "Build Custom Ticket Submission Form"
+msgstr ""
+
+#: build/admin.js:26363
+#: src/admin/components/pages/Setting/Ticketfield.jsx:71
+#: build/admin.js:24329
+msgid "Drag and drop form fields from the right sidebar to add custom form field"
+msgstr ""
+
+#: build/admin.js:26425
+#: src/admin/components/pages/Settingpage.jsx:33
+#: build/admin.js:24384
+msgid "Setting Option"
+msgstr ""
+
+#: build/admin.js:26430
+#: src/admin/components/pages/Settingpage.jsx:44
+#: build/admin.js:24395
+msgid "Business Inbox"
+msgstr ""
+
+#: build/admin.js:26433
+#: src/admin/components/pages/Settingpage.jsx:54
+#: build/admin.js:24405
+msgid "Custom Ticket Fields"
+msgstr ""
+
+#: build/admin.js:26436
+#: src/admin/components/pages/Settingpage.jsx:64
+#: build/admin.js:24415
+msgid "Integrations"
+msgstr ""
+
+#: build/admin.js:26439
+#: src/admin/components/pages/Settingpage.jsx:74
+#: build/admin.js:24425
+msgid "Email Notification"
+msgstr ""
+
+#: build/admin.js:26442
+#: src/admin/components/pages/Settingpage.jsx:84
+#: build/admin.js:24435
+msgid "License"
+msgstr ""
+
+#: build/admin.js:26528
+#: src/admin/components/pages/SingleTicket.jsx:56
+#: build/admin.js:24509
+msgid "Reply Delete successfully"
+msgstr ""
+
+#: build/admin.js:26552
+#: src/admin/components/pages/SingleTicket.jsx:90
+#: build/admin.js:24543
+msgid "Ticket status has changed"
+msgstr ""
+
+#: build/admin.js:26571
+#: src/admin/components/pages/SingleTicket.jsx:114
+#: build/admin.js:24567
+msgid "Ticket assigned to a agent"
+msgstr ""
+
+#: build/admin.js:26576
+#: build/admin.js:31769
+#: src/admin/components/pages/chat/SingleChat.jsx:159
+#: src/admin/components/pages/SingleTicket.jsx:121
+#: build/admin.js:24574
+#: build/admin.js:31266
+msgid "Somrthing went wrong"
+msgstr ""
+
+#: build/admin.js:26600
+#: src/admin/components/pages/SingleTicket.jsx:147
+#: build/admin.js:24600
+msgid "Priority successfully updated."
+msgstr ""
+
+#: build/admin.js:26602
+#: build/admin.js:26605
+#: src/admin/components/pages/SingleTicket.jsx:151
+#: src/admin/components/pages/SingleTicket.jsx:154
+#: build/admin.js:24604
+#: build/admin.js:24607
+msgid "Something went wrong."
+msgstr ""
+
+#: build/admin.js:26844
+#: src/admin/components/pages/SingleTicket.jsx:409
+#: build/admin.js:24862
+msgid "Working........"
+msgstr ""
+
+#: build/admin.js:26846
+#: src/admin/components/pages/SingleTicket.jsx:414
+#: build/admin.js:24867
+msgid "Delete This Message"
+msgstr ""
+
+#: build/admin.js:26855
+#: build/customer_portal.js:224
+#: build/customer_portal.js:739
+#: src/admin/components/pages/SingleTicket.jsx:429
+#: src/frontend/components/AddTicket.jsx:261
+#: src/frontend/components/SingleTicket.jsx:201
+#: build/admin.js:24882
+#: build/customer_portal.js:261
+#: build/customer_portal.js:893
+msgid "All Tickets"
+msgstr ""
+
+#: build/admin.js:26868
+#: src/admin/components/pages/SingleTicket.jsx:448
+#: build/admin.js:24901
+msgid "Reply with"
+msgstr ""
+
+#: build/admin.js:26889
+#: build/customer_portal.js:377
+#: build/customer_portal.js:764
+#: src/admin/components/pages/SingleTicket.jsx:485
+#: src/frontend/components/AddTicket.jsx:539
+#: src/frontend/components/SingleTicket.jsx:231
+#: build/admin.js:24938
+#: build/customer_portal.js:539
+#: build/customer_portal.js:923
+msgid "This is file name"
+msgstr ""
+
+#: build/admin.js:26896
+#: src/admin/components/pages/SingleTicket.jsx:501
+#: build/admin.js:24954
+msgid "Click here to upload file"
+msgstr ""
+
+#: build/admin.js:26997
+#: build/customer_portal.js:410
+#: build/customer_portal.js:745
+#: build/customer_portal.js:870
+#: build/customer_portal.js:1083
+#: src/admin/components/pages/SingleTicket.jsx:687
+#: src/frontend/components/AddTicket.jsx:593
+#: src/frontend/components/default-fields.js:14
+#: src/frontend/components/SingleTicket.jsx:208
+#: src/frontend/components/SingleTicket.jsx:432
+#: build/admin.js:25140
+#: build/customer_portal.js:593
+#: build/customer_portal.js:900
+#: build/customer_portal.js:1124
+#: build/customer_portal.js:1442
+msgid "Message"
+msgstr ""
+
+#: build/admin.js:27046
+#: build/admin.js:32074
+#: src/admin/components/pages/chat/SingleChat.jsx:503
+#: src/admin/components/pages/SingleTicket.jsx:802
+#: build/admin.js:25255
+#: build/admin.js:31610
+msgid "Close"
+msgstr ""
+
+#: build/admin.js:27054
+#: build/admin.js:32084
+#: src/admin/components/pages/chat/SingleChat.jsx:514
+#: src/admin/components/pages/SingleTicket.jsx:816
+#: build/admin.js:25269
+#: build/admin.js:31621
+msgid "Not Assigned"
+msgstr ""
+
+#: build/admin.js:27076
+#: build/admin.js:32088
+#: src/admin/components/pages/chat/SingleChat.jsx:521
+#: src/admin/components/pages/SingleTicket.jsx:857
+#: build/admin.js:25310
+#: build/admin.js:31628
+msgid "Last Update"
+msgstr ""
+
+#: build/admin.js:27083
+#: build/admin.js:32097
+#: src/admin/components/pages/chat/SingleChat.jsx:531
+#: src/admin/components/pages/SingleTicket.jsx:870
+#: build/admin.js:25323
+#: build/admin.js:31638
+msgid "Creation Date"
+msgstr ""
+
+#: build/admin.js:27092
+#: src/admin/components/pages/SingleTicket.jsx:887
+#: build/admin.js:25340
+msgid "Additional Information "
+msgstr ""
+
+#: build/admin.js:27113
+#: src/admin/components/pages/SingleTicket.jsx:924
+#: build/admin.js:25377
+msgid "WooCommerce Purchases"
+msgstr ""
+
+#: build/admin.js:27127
+#: build/admin.js:27143
+#: src/admin/components/pages/SingleTicket.jsx:961
+#: src/admin/components/pages/SingleTicket.jsx:1000
+#: build/admin.js:25414
+#: build/admin.js:25453
+msgid "No order placed"
+msgstr ""
+
+#: build/admin.js:27129
+#: src/admin/components/pages/SingleTicket.jsx:973
+#: build/admin.js:25426
+msgid "Edd Purchases"
+msgstr ""
+
+#: build/admin.js:27145
+#: src/admin/components/pages/SingleTicket.jsx:1013
+#: build/admin.js:25466
+msgid "Previous Conversations"
+msgstr ""
+
+#: build/admin.js:27154
+#: src/admin/components/pages/SingleTicket.jsx:1024
+#: build/admin.js:25477
+msgid "Custom enterred link"
+msgstr ""
+
+#: build/admin.js:27160
+#: src/admin/components/pages/SingleTicket.jsx:1039
+#: build/admin.js:25492
+msgid "ALL Ticket"
+msgstr ""
+
+#: build/admin.js:27170
+#: src/admin/components/pages/SingleTicket.jsx:1079
+#: build/admin.js:25532
+msgid "Templates"
+msgstr ""
+
+#: build/admin.js:27174
+#: src/admin/components/comp/TicketBottomControle.jsx:23
+#: src/admin/components/pages/SingleTicket.jsx:1092
+#: build/admin.js:25545
+msgid "Activities"
+msgstr ""
+
+#: build/admin.js:27287
+#: src/admin/components/comp/TicketBottomControle.jsx:153
+#: src/admin/components/comp/TicketBottomControle.jsx:206
+#: src/admin/components/pages/SingleTicket.jsx:1293
+#: build/admin.js:25746
+msgid "Question answere"
+msgstr ""
+
+#: build/admin.js:27291
+#: src/admin/components/comp/TicketBottomControle.jsx:157
+#: src/admin/components/comp/TicketBottomControle.jsx:210
+#: src/admin/components/pages/SingleTicket.jsx:1300
+#: build/admin.js:25753
+msgid "Question response answered"
+msgstr ""
+
+#: build/admin.js:27297
+#: src/admin/components/comp/TicketBottomControle.jsx:167
+#: src/admin/components/pages/SingleTicket.jsx:1313
+#: build/admin.js:25766
+msgid "Test response"
+msgstr ""
+
+#: build/admin.js:27301
+#: src/admin/components/pages/SingleTicket.jsx:1320
+#: build/admin.js:25773
+msgid "Test response answere"
+msgstr ""
+
+#: build/admin.js:27349
+#: src/admin/components/pages/TicketsTable.jsx:24
+#: build/admin.js:25817
+msgid "Title 2"
+msgstr ""
+
+#: build/admin.js:27349
+#: src/admin/components/pages/TicketsTable.jsx:27
+#: build/admin.js:25820
+msgid "Update"
+msgstr ""
+
+#: build/admin.js:27349
+#: src/admin/components/pages/TicketsTable.jsx:28
+#: build/admin.js:25821
+msgid "Created"
+msgstr ""
+
+#: build/admin.js:27469
+#: src/admin/components/pages/WidgetSettings.jsx:54
+#: build/admin.js:25954
+msgid "Home Window Tab"
+msgstr ""
+
+#: build/admin.js:27472
+#: src/admin/components/pages/WidgetSettings.jsx:64
+#: build/admin.js:25964
+msgid "Live Message Tab"
+msgstr ""
+
+#: build/admin.js:27478
+#: src/admin/components/pages/WidgetSettings.jsx:84
+#: build/admin.js:25984
+msgid "AI Chat Tab"
+msgstr ""
+
+#: build/admin.js:28000
+#: build/admin.js:28093
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:560
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:683
+#: build/admin.js:26557
+#: build/admin.js:26680
+msgid "Failed to copy text: "
+msgstr ""
+
+#: build/admin.js:28232
+#: build/admin.js:28429
+#: build/admin.js:28678
+#: build/admin.js:28836
+#: build/admin.js:29045
+#: build/admin.js:30959
+#: build/admin.js:31169
+#: build/admin.js:31334
+#: build/admin.js:31552
+#: build/admin.js:32853
+#: build/admin.js:33015
+#: build/admin.js:33125
+#: build/admin.js:33282
+#: build/admin.js:33480
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:855
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:1115
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:1506
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:1699
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:1939
+#: src/admin/components/pages/chat/LiveSettings.jsx:541
+#: src/admin/components/pages/chat/LiveSettings.jsx:813
+#: src/admin/components/pages/chat/LiveSettings.jsx:1006
+#: src/admin/components/pages/chat/LiveSettings.jsx:1258
+#: src/admin/components/pages/chat/WidgetStatus.jsx:547
+#: src/admin/components/pages/chat/WidgetStatus.jsx:760
+#: src/admin/components/pages/chat/WidgetStatus.jsx:894
+#: src/admin/components/pages/chat/WidgetStatus.jsx:1086
+#: src/admin/components/pages/chat/WidgetStatus.jsx:1316
+#: src/admin/components/pages/Setting/Integrations/SlackInte.jsx:92
+#: src/admin/components/pages/Setting/Integrations/SlackInte.jsx:100
+#: src/admin/components/pages/Setting/Integrations/SlackInte.jsx:230
+#: src/admin/components/pages/Setting/Integrations/WhatsAppInte.jsx:116
+#: src/admin/components/pages/Setting/Integrations/WhatsAppInte.jsx:210
+#: build/admin.js:26852
+#: build/admin.js:27112
+#: build/admin.js:27503
+#: build/admin.js:27696
+#: build/admin.js:27936
+#: build/admin.js:30306
+#: build/admin.js:30578
+#: build/admin.js:30771
+#: build/admin.js:31023
+#: build/admin.js:32447
+#: build/admin.js:32660
+#: build/admin.js:32794
+#: build/admin.js:32986
+#: build/admin.js:33216
+msgid "Save Settings"
+msgstr ""
+
+#: build/admin.js:28377
+#: build/admin.js:28652
+#: build/admin.js:28801
+#: build/admin.js:28994
+#: build/admin.js:30904
+#: build/admin.js:31144
+#: build/admin.js:31299
+#: build/admin.js:31478
+#: build/admin.js:32984
+#: build/admin.js:33099
+#: build/admin.js:33433
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:1058
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:1481
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:1664
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:1887
+#: src/admin/components/pages/chat/LiveSettings.jsx:485
+#: src/admin/components/pages/chat/LiveSettings.jsx:791
+#: src/admin/components/pages/chat/LiveSettings.jsx:973
+#: src/admin/components/pages/chat/LiveSettings.jsx:1179
+#: src/admin/components/pages/chat/WidgetStatus.jsx:732
+#: src/admin/components/pages/chat/WidgetStatus.jsx:869
+#: src/admin/components/pages/chat/WidgetStatus.jsx:1269
+#: build/admin.js:27055
+#: build/admin.js:27478
+#: build/admin.js:27661
+#: build/admin.js:27884
+#: build/admin.js:30250
+#: build/admin.js:30556
+#: build/admin.js:30738
+#: build/admin.js:30944
+#: build/admin.js:32632
+#: build/admin.js:32769
+#: build/admin.js:33169
+msgid "Settings successfully updated."
+msgstr ""
+
+#: build/admin.js:28445
+#: build/admin.js:30984
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:1150
+#: src/admin/components/pages/chat/LiveSettings.jsx:572
+#: build/admin.js:27147
+#: build/admin.js:30337
+msgid "Chat Window Home Title"
+msgstr ""
+
+#: build/admin.js:28449
+#: build/admin.js:28459
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:1156
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:1169
+#: build/admin.js:27153
+#: build/admin.js:27166
+msgid "Enter Chat Window Home Title"
+msgstr ""
+
+#: build/admin.js:28455
+#: build/admin.js:31002
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:1163
+#: src/admin/components/pages/chat/LiveSettings.jsx:596
+#: build/admin.js:27160
+#: build/admin.js:30361
+msgid "Default Images for agents"
+msgstr ""
+
+#: build/admin.js:28465
+#: build/admin.js:30975
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:1174
+#: src/admin/components/pages/chat/LiveSettings.jsx:560
+#: build/admin.js:27171
+#: build/admin.js:30325
+msgid "Position Title"
+msgstr ""
+
+#: build/admin.js:28469
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:1179
+#: build/admin.js:27176
+msgid "Enter Position Title"
+msgstr ""
+
+#: build/admin.js:28475
+#: build/admin.js:30993
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:1186
+#: src/admin/components/pages/chat/LiveSettings.jsx:584
+#: build/admin.js:27183
+#: build/admin.js:30349
+msgid "Chat Window Home Subtitle"
+msgstr ""
+
+#: build/admin.js:28485
+#: build/admin.js:31223
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:1199
+#: src/admin/components/pages/chat/LiveSettings.jsx:881
+#: build/admin.js:27196
+#: build/admin.js:30646
+msgid "Enable Guest Chat"
+msgstr ""
+
+#: build/admin.js:28498
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:1232
+#: build/admin.js:27229
+msgid "Enable Guest Chat section in Home window."
+msgstr ""
+
+#: build/admin.js:28511
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:1250
+#: build/admin.js:27247
+msgid "Guest Chat Section Type"
+msgstr ""
+
+#: build/admin.js:28523
+#: build/admin.js:28564
+#: build/admin.js:31052
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:1267
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:1327
+#: src/admin/components/pages/chat/LiveSettings.jsx:664
+#: build/admin.js:27264
+#: build/admin.js:27324
+#: build/admin.js:30429
+msgid "Form"
+msgstr ""
+
+#: build/admin.js:28535
+#: build/admin.js:28576
+#: build/admin.js:31063
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:1286
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:1346
+#: src/admin/components/pages/chat/LiveSettings.jsx:682
+#: build/admin.js:27283
+#: build/admin.js:27343
+#: build/admin.js:30447
+msgid "Button"
+msgstr ""
+
+#: build/admin.js:28539
+#: build/admin.js:31030
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:1293
+#: src/admin/components/pages/chat/LiveSettings.jsx:636
+#: build/admin.js:27290
+#: build/admin.js:30401
+msgid "Enable User Chat section in Home window."
+msgstr ""
+
+#: build/admin.js:28552
+#: build/admin.js:31041
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:1310
+#: src/admin/components/pages/chat/LiveSettings.jsx:648
+#: build/admin.js:27307
+#: build/admin.js:30413
+msgid "User Chat Section Type"
+msgstr ""
+
+#: build/admin.js:28580
+#: build/admin.js:31067
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:1353
+#: src/admin/components/pages/chat/LiveSettings.jsx:689
+#: build/admin.js:27350
+#: build/admin.js:30454
+msgid "Enable Article List section in Home window."
+msgstr ""
+
+#: build/admin.js:28694
+#: build/admin.js:31185
+#: build/admin.js:33141
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:1526
+#: src/admin/components/pages/chat/LiveSettings.jsx:833
+#: src/admin/components/pages/chat/WidgetStatus.jsx:914
+#: build/admin.js:27523
+#: build/admin.js:30598
+#: build/admin.js:32814
+msgid "Enable Live Message"
+msgstr ""
+
+#: build/admin.js:28707
+#: build/admin.js:31196
+#: build/admin.js:33154
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:1542
+#: src/admin/components/pages/chat/LiveSettings.jsx:844
+#: src/admin/components/pages/chat/WidgetStatus.jsx:930
+#: build/admin.js:27539
+#: build/admin.js:30609
+#: build/admin.js:32830
+msgid "Live Message Top Bar Title"
+msgstr ""
+
+#: build/admin.js:28717
+#: build/admin.js:31205
+#: build/admin.js:33164
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:1556
+#: src/admin/components/pages/chat/LiveSettings.jsx:857
+#: src/admin/components/pages/chat/WidgetStatus.jsx:944
+#: build/admin.js:27553
+#: build/admin.js:30622
+#: build/admin.js:32844
+msgid "Title for No Message Found"
+msgstr ""
+
+#: build/admin.js:28727
+#: build/admin.js:31214
+#: build/admin.js:33174
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:1570
+#: src/admin/components/pages/chat/LiveSettings.jsx:870
+#: src/admin/components/pages/chat/WidgetStatus.jsx:958
+#: build/admin.js:27567
+#: build/admin.js:30635
+#: build/admin.js:32858
+msgid "Send Message Button Title"
+msgstr ""
+
+#: build/admin.js:28743
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:1598
+#: build/admin.js:27595
+msgid "Help"
+msgstr ""
+
+#: build/admin.js:28744
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:1599
+#: build/admin.js:27596
+msgid "No Articles Found"
+msgstr ""
+
+#: build/admin.js:28852
+#: build/admin.js:33298
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:1718
+#: src/admin/components/pages/chat/WidgetStatus.jsx:1105
+#: build/admin.js:27715
+#: build/admin.js:33005
+msgid "Enable Help Tab"
+msgstr ""
+
+#: build/admin.js:28865
+#: build/admin.js:31361
+#: build/admin.js:33311
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:1734
+#: src/admin/components/pages/chat/LiveSettings.jsx:1036
+#: src/admin/components/pages/chat/WidgetStatus.jsx:1121
+#: build/admin.js:27731
+#: build/admin.js:30801
+#: build/admin.js:33021
+msgid "Top Bar Title for Help Tab"
+msgstr ""
+
+#: build/admin.js:28869
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:1740
+#: build/admin.js:27737
+msgid "Give Top Bar Title for Help Tab..."
+msgstr ""
+
+#: build/admin.js:28875
+#: build/admin.js:31370
+#: build/admin.js:33321
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:1748
+#: src/admin/components/pages/chat/LiveSettings.jsx:1049
+#: src/admin/components/pages/chat/WidgetStatus.jsx:1135
+#: build/admin.js:27745
+#: build/admin.js:30814
+#: build/admin.js:33035
+msgid "Select Post Type as Help Articles"
+msgstr ""
+
+#: build/admin.js:28886
+#: build/admin.js:31380
+#: build/admin.js:33332
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:1762
+#: src/admin/components/pages/chat/LiveSettings.jsx:1062
+#: src/admin/components/pages/chat/WidgetStatus.jsx:1149
+#: build/admin.js:27759
+#: build/admin.js:30827
+#: build/admin.js:33049
+msgid "Title for No Articles Found"
+msgstr ""
+
+#: build/admin.js:28890
+#: build/admin.js:33336
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:1768
+#: src/admin/components/pages/chat/WidgetStatus.jsx:1155
+#: build/admin.js:27765
+#: build/admin.js:33055
+msgid "Give Title to show when there are no articles found..."
+msgstr ""
+
+#: build/admin.js:29059
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:1954
+#: build/admin.js:27951
+msgid "ChatGPT Training Type"
+msgstr ""
+
+#: build/admin.js:29071
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:1970
+#: build/admin.js:27967
+msgid "Prompt Base"
+msgstr ""
+
+#: build/admin.js:29085
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:1990
+#: build/admin.js:27987
+msgid "Fine-tuning (Upcoming)"
+msgstr ""
+
+#: build/admin.js:29089
+#: build/admin.js:33529
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:1998
+#: src/admin/components/pages/chat/WidgetStatus.jsx:1375
+#: build/admin.js:27995
+#: build/admin.js:33275
+msgid "Select Open AI Model"
+msgstr ""
+
+#: build/admin.js:29099
+#: build/admin.js:33539
+#: build/admin.js:33543
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:2012
+#: src/admin/components/pages/chat/WidgetStatus.jsx:1387
+#: src/admin/components/pages/chat/WidgetStatus.jsx:1392
+#: build/admin.js:28009
+#: build/admin.js:33287
+#: build/admin.js:33292
+msgid "Open AI API Key"
+msgstr ""
+
+#: build/admin.js:29103
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:2018
+#: build/admin.js:28015
+msgid "( Get API key )"
+msgstr ""
+
+#: build/admin.js:29112
+#: build/admin.js:33548
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:2033
+#: src/admin/components/pages/chat/WidgetStatus.jsx:1399
+#: build/admin.js:28030
+#: build/admin.js:33299
+msgid "Give instructions to ChatGPT"
+msgstr ""
+
+#: build/admin.js:29121
+#: build/admin.js:33558
+#: src/admin/components/pages/chat/ChatGptSettings.jsx:2045
+#: src/admin/components/pages/chat/WidgetStatus.jsx:1412
+#: build/admin.js:28042
+#: build/admin.js:33312
+msgid "Give Data/Content about your business/service/products/website"
+msgstr ""
+
+#: build/admin.js:29212
+#: src/admin/components/pages/chat/Faq.jsx:63
+#: build/admin.js:28166
+msgid "Responses deleted successfully"
+msgstr ""
+
+#: build/admin.js:29316
+#: build/admin.js:32221
+#: src/admin/components/pages/chat/Faq.jsx:189
+#: src/admin/components/pages/chat/SingleChat.jsx:660
+#: src/frontend/components/ChatBox.jsx:1308
+#: build/admin.js:28292
+#: build/admin.js:31767
+msgid "Response added successfully"
+msgstr ""
+
+#: build/admin.js:29668
+#: build/admin.js:30154
+#: src/admin/components/pages/chat/LiveChatList.jsx:225
+#: src/admin/components/pages/chat/LiveDash.jsx:172
+#: build/admin.js:28712
+#: build/admin.js:29342
+msgid "Total Chat"
+msgstr ""
+
+#: build/admin.js:29672
+#: build/admin.js:30158
+#: src/admin/components/pages/chat/LiveChatList.jsx:229
+#: src/admin/components/pages/chat/LiveDash.jsx:176
+#: build/admin.js:28716
+#: build/admin.js:29346
+msgid "Waiting Chat"
+msgstr ""
+
+#: build/admin.js:29676
+#: build/admin.js:30162
+#: src/admin/components/pages/chat/LiveChatList.jsx:233
+#: src/admin/components/pages/chat/LiveDash.jsx:180
+#: build/admin.js:28720
+#: build/admin.js:29350
+msgid "Open Chat"
+msgstr ""
+
+#: build/admin.js:29680
+#: build/admin.js:30166
+#: src/admin/components/pages/chat/LiveChatList.jsx:237
+#: src/admin/components/pages/chat/LiveDash.jsx:184
+#: build/admin.js:28724
+#: build/admin.js:29354
+msgid "Resolved Chat"
+msgstr ""
+
+#: build/admin.js:29796
+#: build/admin.js:30288
+#: src/admin/components/pages/chat/LiveChatList.jsx:383
+#: src/admin/components/pages/chat/LiveDash.jsx:333
+#: build/admin.js:28870
+#: build/admin.js:29503
+msgid "Updated"
+msgstr ""
+
+#: build/admin.js:30460
+#: src/admin/components/pages/chat/LiveDash.jsx:555
+#: build/admin.js:29725
+msgid "Recent Chat History"
+msgstr ""
+
+#: build/admin.js:30841
+#: src/admin/components/pages/chat/LiveSettings.jsx:414
+#: build/admin.js:30179
+msgid "Image width and height should be less than 50px"
+msgstr ""
+
+#: build/admin.js:30855
+#: src/admin/components/pages/chat/LiveSettings.jsx:428
+#: build/admin.js:30193
+msgid "File type not support"
+msgstr ""
+
+#: build/admin.js:31013
+#: src/admin/components/pages/chat/LiveSettings.jsx:612
+#: build/admin.js:30377
+msgid "We support file type jpeg, png, gif, jpg, webp"
+msgstr ""
+
+#: build/admin.js:31015
+#: src/admin/components/pages/chat/LiveSettings.jsx:618
+#: build/admin.js:30383
+msgid "Max upload limit 3"
+msgstr ""
+
+#: build/admin.js:31019
+#: src/admin/components/pages/chat/LiveSettings.jsx:624
+#: build/admin.js:30389
+msgid "Click here to upload file, Max upload limit 3"
+msgstr ""
+
+#: build/admin.js:31350
+#: src/admin/components/pages/chat/LiveSettings.jsx:1025
+#: build/admin.js:30790
+msgid "Enable Help Tabb"
+msgstr ""
+
+#: build/admin.js:31558
+#: build/admin.js:33486
+#: src/admin/components/pages/chat/LiveSettings.jsx:1270
+#: src/admin/components/pages/chat/WidgetStatus.jsx:1328
+#: build/admin.js:31035
+#: build/admin.js:33228
+msgid "AI Chat Bot"
+msgstr ""
+
+#: build/admin.js:31569
+#: build/admin.js:33496
+#: src/admin/components/pages/chat/LiveSettings.jsx:1277
+#: src/admin/components/pages/chat/WidgetStatus.jsx:1335
+#: build/admin.js:31042
+#: build/admin.js:33235
+msgid "Enable AI Chat Bot"
+msgstr ""
+
+#: build/admin.js:31580
+#: build/admin.js:33509
+#: src/admin/components/pages/chat/LiveSettings.jsx:1286
+#: src/admin/components/pages/chat/WidgetStatus.jsx:1349
+#: build/admin.js:31051
+#: build/admin.js:33249
+msgid "Widget Name"
+msgstr ""
+
+#: build/admin.js:31588
+#: build/admin.js:33519
+#: src/admin/components/pages/chat/LiveSettings.jsx:1297
+#: src/admin/components/pages/chat/WidgetStatus.jsx:1362
+#: build/admin.js:31062
+#: build/admin.js:33262
+msgid "Placeholder text for AI Chat form"
+msgstr ""
+
+#: build/admin.js:31743
+#: src/admin/components/pages/chat/SingleChat.jsx:131
+#: build/admin.js:31238
+msgid "Chat status has changed"
+msgstr ""
+
+#: build/admin.js:31764
+#: src/admin/components/pages/chat/SingleChat.jsx:154
+#: build/admin.js:31261
+msgid "Agent assigned to the chat successfully."
+msgstr ""
+
+#: build/admin.js:31766
+#: src/admin/components/pages/chat/SingleChat.jsx:156
+#: build/admin.js:31263
+msgid "Something went wrong "
+msgstr ""
+
+#: build/admin.js:32108
+#: src/admin/components/pages/chat/SingleChat.jsx:545
+#: build/admin.js:31652
+msgid "Additional Information"
+msgstr ""
+
+#: build/admin.js:32194
+#: src/admin/components/pages/chat/SingleChat.jsx:627
+#: build/admin.js:31734
+msgid "Active Now"
+msgstr ""
+
+#: build/admin.js:32249
+#: src/admin/components/pages/chat/SingleChat.jsx:691
+#: src/frontend/components/ChatBox.jsx:2057
+#: src/frontend/components/ChatBox.jsx:2070
+#: build/admin.js:31798
+msgid "Send Message"
+msgstr ""
+
+#: build/admin.js:32306
+#: src/admin/components/pages/chat/SingleChat.jsx:771
+#: build/admin.js:31878
+msgid "All Chat"
+msgstr ""
+
+#: build/admin.js:33029
+#: src/admin/components/pages/chat/WidgetStatus.jsx:776
+#: build/admin.js:32676
+msgid "Enable Chat Widget"
+msgstr ""
+
+#: build/admin.js:33178
+#: src/admin/components/pages/chat/WidgetStatus.jsx:964
+#: build/admin.js:32864
+msgid "Enter Button Title"
+msgstr ""
+
+#: build/admin.js:33561
+#: src/admin/components/pages/chat/WidgetStatus.jsx:1417
+#: build/admin.js:33317
+msgid "Write Data/content about your service/products"
+msgstr ""
+
+#: build/admin.js:33568
+#: src/admin/components/pages/chat/WidgetStatus.jsx:1426
+#: build/admin.js:33326
+msgid "Select the source for ChatGPT prompt analysis"
+msgstr ""
+
+#: build/admin.js:33678
+#: src/admin/components/ui/ticketfield/OptionModal.jsx:31
+#: build/admin.js:33423
+msgid "Option"
+msgstr ""
+
+#: build/admin.js:33820
+#: src/admin/components/ui/ticketfield/SettingModal.jsx:80
+#: build/admin.js:33587
+msgid "Css Class"
+msgstr ""
+
+#: build/admin.js:33835
+#: src/admin/components/ui/ticketfield/SettingModal.jsx:100
+#: build/admin.js:33607
+msgid "Error message"
+msgstr ""
+
+#: build/admin.js:33850
+#: src/admin/components/ui/ticketfield/SettingModal.jsx:120
+#: build/admin.js:33627
+msgid "Select Inbox"
+msgstr ""
+
+#: build/admin.js:33866
+#: src/admin/components/ui/ticketfield/SettingModal.jsx:154
+#: build/admin.js:33661
+msgid "Save"
+msgstr ""
+
+#: build/admin.js:34546
+#: build/customer_portal.js:1162
+#: src/utils/utils.js:20
+#: build/admin.js:34202
+#: build/customer_portal.js:1516
+msgid "Error"
+msgstr ""
+
+#: build/admin.js:34561
+#: build/customer_portal.js:1177
+#: src/utils/utils.js:38
+#: build/admin.js:34220
+#: build/customer_portal.js:1534
+msgid "Info"
+msgstr ""
+
+#: build/admin.js:34576
+#: build/customer_portal.js:1192
+#: src/utils/utils.js:57
+#: build/admin.js:34239
+#: build/customer_portal.js:1553
+msgid "Warning"
+msgstr ""
+
+#: build/admin.js:34591
+#: build/customer_portal.js:1207
+#: src/utils/utils.js:75
+#: build/admin.js:34257
+#: build/customer_portal.js:1571
+msgid "Success"
+msgstr ""
+
+#: build/customer_portal.js:131
+#: src/frontend/components/AddTicket.jsx:149
+#: build/customer_portal.js:149
+msgid "Ticket is successfully added!"
+msgstr ""
+
+#: build/customer_portal.js:221
+#: src/frontend/components/AddTicket.jsx:256
+#: build/customer_portal.js:256
+msgid "Create New Ticket"
+msgstr ""
+
+#: build/customer_portal.js:395
+#: build/customer_portal.js:780
+#: src/frontend/components/AddTicket.jsx:571
+#: src/frontend/components/SingleTicket.jsx:258
+#: build/customer_portal.js:571
+#: build/customer_portal.js:950
+msgid "Drag and drop or Click here to upload file"
+msgstr ""
+
+#: build/customer_portal.js:736
+#: build/customer_portal.js:1018
+#: src/frontend/components/SingleTicket.jsx:195
+#: src/frontend/components/Tickets.jsx:106
+#: build/customer_portal.js:887
+#: build/customer_portal.js:1317
+msgid "Support Portal"
+msgstr ""
+
+#: build/customer_portal.js:860
+#: src/frontend/components/SingleTicket.jsx:413
+#: build/customer_portal.js:1105
+msgid "You"
+msgstr ""
+
+#: build/customer_portal.js:1049
+#: src/frontend/components/Tickets.jsx:159
+#: build/customer_portal.js:1370
+msgid "Last Update:"
+msgstr ""
+
+#: build/customer_portal.js:1049
+#: src/frontend/components/Tickets.jsx:174
+#: build/customer_portal.js:1385
+msgid "Status:"
+msgstr ""
+
+#: build/customer_portal.js:1049
+#: src/frontend/components/Tickets.jsx:184
+#: build/customer_portal.js:1395
+msgid "Ticket Created:"
+msgstr ""
+
+#: build/customer_portal.js:1054
+#: src/frontend/components/Tickets.jsx:206
+#: build/customer_portal.js:1417
+msgid "You have no previously created tickets."
+msgstr ""
+
+#: build/customer_portal.js:1076
+#: src/frontend/components/default-fields.js:6
+#: build/customer_portal.js:1434
+msgid "Please provide the subject."
+msgstr ""
+
+#: build/customer_portal.js:1084
+#: src/frontend/components/default-fields.js:15
+#: build/customer_portal.js:1443
+msgid "Please share your problem in details."
+msgstr ""
+
+#: src/admin/components/comp/TicketBottomControle.jsx:16
+msgid "Templates and"
+msgstr ""
+
+#: src/admin/components/comp/TicketBottomControle.jsx:31
+msgid "To Do"
+msgstr ""
+
+#: src/admin/components/comp/TicketBottomControle.jsx:171
+#: src/admin/components/comp/TicketBottomControle.jsx:224
+msgid "Response answere"
+msgstr ""
+
+#: src/admin/components/comp/TicketBottomControle.jsx:220
+msgid "Response"
+msgstr ""
+
+#: src/admin/components/pages/InfiniteScroll.jsx:21
+msgid "Error fetching data:"
+msgstr ""
+
+#: src/admin/components/pages/InfiniteScroll.jsx:36
+msgid "Loading..."
+msgstr ""
+
+#: src/admin/components/pages/Setting/Integrations/DiscordInte.jsx:54
+#: src/admin/components/pages/Setting/Integrations/SlackInte.jsx:61
+#: src/admin/components/pages/Setting/Integrations/TeleInte.jsx:54
+#: src/admin/components/pages/Setting/Integrations/WhatsAppInte.jsx:60
+msgid "Settings Updated"
+msgstr ""
+
+#: src/admin/components/pages/Setting/Integrations/DiscordInte.jsx:67
+#: src/admin/components/pages/Setting/Integrations/SlackInte.jsx:117
+#: src/admin/components/pages/Setting/Integrations/TeleInte.jsx:67
+#: src/admin/components/pages/Setting/Integrations/WhatsAppInte.jsx:124
+msgid "Go to Integration List"
+msgstr ""
+
+#: src/admin/components/pages/Setting/Integrations/DiscordInte.jsx:99
+msgid "Get instruction for Discord integration"
+msgstr ""
+
+#: src/admin/components/pages/Setting/Integrations/DiscordInte.jsx:103
+msgid "Discord Webhook Url"
+msgstr ""
+
+#: src/admin/components/pages/Setting/Integrations/DiscordInte.jsx:110
+msgid "Enter discord webhook url"
+msgstr ""
+
+#: src/admin/components/pages/Setting/Integrations/DiscordInte.jsx:114
+#: src/admin/components/pages/Setting/Integrations/TeleInte.jsx:129
+msgid "Settings"
+msgstr ""
+
+#: src/admin/components/pages/Setting/Integrations/DiscordInte.jsx:118
+#: src/admin/components/pages/Setting/Integrations/SlackInte.jsx:182
+#: src/admin/components/pages/Setting/Integrations/TeleInte.jsx:133
+msgid "Ticket Created"
+msgstr ""
+
+#: src/admin/components/pages/Setting/Integrations/DiscordInte.jsx:144
+#: src/admin/components/pages/Setting/Integrations/SlackInte.jsx:208
+#: src/admin/components/pages/Setting/Integrations/TeleInte.jsx:159
+msgid "Ticket Replied"
+msgstr ""
+
+#: src/admin/components/pages/Setting/Integrations/DiscordInte.jsx:161
+#: src/admin/components/pages/Setting/Integrations/TeleInte.jsx:176
+msgid "Save settings"
+msgstr ""
+
+#: src/admin/components/pages/Setting/Integrations/SlackInte.jsx:146
+msgid "Please enter your slack account information below. Get instruction for Telegram integration"
+msgstr ""
+
+#: src/admin/components/pages/Setting/Integrations/SlackInte.jsx:151
+msgid "OAuth Token"
+msgstr ""
+
+#: src/admin/components/pages/Setting/Integrations/SlackInte.jsx:157
+#: src/admin/components/pages/Setting/Integrations/SlackInte.jsx:166
+msgid "Enter Channel Id"
+msgstr ""
+
+#: src/admin/components/pages/Setting/Integrations/SlackInte.jsx:160
+msgid "Channel Id"
+msgstr ""
+
+#: src/admin/components/pages/Setting/Integrations/SlackInte.jsx:170
+msgid "Channel Name"
+msgstr ""
+
+#: src/admin/components/pages/Setting/Integrations/SlackInte.jsx:176
+msgid "Enter Channel Name"
+msgstr ""
+
+#: src/admin/components/pages/Setting/Integrations/SlackInte.jsx:223
+msgid "Copy this URL to make your agent able to reply ticket from Slack."
+msgstr ""
+
+#: src/admin/components/pages/Setting/Integrations/TeleInte.jsx:105
+msgid "Get instruction for Telegram integration"
+msgstr ""
+
+#: src/admin/components/pages/Setting/Integrations/TeleInte.jsx:108
+msgid "Telegram Bot Token"
+msgstr ""
+
+#: src/admin/components/pages/Setting/Integrations/TeleInte.jsx:118
+msgid "Telegram Channel Id"
+msgstr ""
+
+#: src/admin/components/pages/Setting/Integrations/WhatsAppInte.jsx:91
+#: src/admin/components/pages/Setting/Integrations/WhatsAppInte.jsx:99
+msgid "Save settidsdngs"
+msgstr ""
+
+#: src/admin/components/pages/Setting/Integrations/WhatsAppInte.jsx:150
+msgid "We use Twilio service to activate Whatsapp Integration. Please enter your Twilio account information below."
+msgstr ""
+
+#: src/admin/components/pages/Setting/Integrations/WhatsAppInte.jsx:153
+msgid "Twilio Account SID"
+msgstr ""
+
+#: src/admin/components/pages/Setting/Integrations/WhatsAppInte.jsx:160
+msgid "Enter Account SID"
+msgstr ""
+
+#: src/admin/components/pages/Setting/Integrations/WhatsAppInte.jsx:164
+msgid "Twilio Auth Token"
+msgstr ""
+
+#: src/admin/components/pages/Setting/Integrations/WhatsAppInte.jsx:171
+msgid "Enter Auth Token"
+msgstr ""
+
+#: src/admin/components/pages/Setting/Integrations/WhatsAppInte.jsx:175
+msgid "Twilio WhatsApp Number"
+msgstr ""
+
+#: src/admin/components/pages/Setting/Integrations/WhatsAppInte.jsx:182
+msgid "Enter WhatsApp Number"
+msgstr ""
+
+#: src/admin/components/pages/Setting/Integrations/WhatsAppInte.jsx:187
+msgid "Enable Reply From WhatsApp"
+msgstr ""
+
+#: src/admin/components/pages/Setting/Integrations/WhatsAppInte.jsx:202
+msgid "Copy this URL to make your agent able to reply ticket from WhatsApp."
+msgstr ""
+
+#: src/admin/components/ui/ticketfield/Dropdown.jsx:28
+#: src/admin/components/ui/ticketfield/NumberField.jsx:27
+#: src/admin/components/ui/ticketfield/Radio.jsx:27
+#: src/admin/components/ui/ticketfield/TextArea.jsx:27
+#: src/admin/components/ui/ticketfield/TextField.jsx:27
+msgid "Edit"
+msgstr ""
+
+#: src/admin/components/ui/ticketfield/Dropdown.jsx:42
+#: src/admin/components/ui/ticketfield/Dropdown.jsx:45
+#: src/admin/components/ui/ticketfield/Dropdown.jsx:48
+msgid "Value One"
+msgstr ""
+
+#: src/admin/components/ui/ticketfield/NumberField.jsx:10
+msgid "Number Input Field"
+msgstr ""
+
+#: src/admin/components/ui/ticketfield/NumberField.jsx:40
+msgid "Number input fields"
+msgstr ""
+
+#: src/admin/components/ui/ticketfield/Radio.jsx:51
+msgid "Inline 1"
+msgstr ""
+
+#: src/admin/components/ui/ticketfield/Radio.jsx:66
+msgid "Inline 2"
+msgstr ""
+
+#: src/admin/components/ui/ticketfield/Radio.jsx:82
+msgid "Inline checked"
+msgstr ""
+
+#: src/admin/components/ui/ticketfield/TextArea.jsx:10
+msgid "Text Area Field"
+msgstr ""
+
+#: src/admin/components/ui/ticketfield/TextArea.jsx:40
+msgid "Text area field"
+msgstr ""
+
+#: src/admin/components/ui/ticketfield/TextField.jsx:10
+msgid "Text Input Field"
+msgstr ""
+
+#: src/admin/components/ui/ticketfield/TextField.jsx:40
+msgid "Text input fields"
+msgstr ""
+
+#: src/frontend/components/ChatBox.jsx:59
+msgid "How to purchase Hive Support Plugin?"
+msgstr ""
+
+#: src/frontend/components/ChatBox.jsx:713
+msgid "Your team"
+msgstr ""
+
+#: src/frontend/components/ChatBox.jsx:717
+msgid "Active recently"
+msgstr ""
+
+#: src/frontend/components/ChatBox.jsx:750
+msgid "remove"
+msgstr ""
+
+#: src/frontend/components/ChatBox.jsx:756
+msgid "close"
+msgstr ""
+
+#: src/frontend/components/ChatBox.jsx:779
+msgid "Enter Name*"
+msgstr ""
+
+#: src/frontend/components/ChatBox.jsx:792
+msgid "Enter Email*"
+msgstr ""
+
+#: src/frontend/components/ChatBox.jsx:806
+msgid "Your Message..."
+msgstr ""
+
+#: src/frontend/components/ChatBox.jsx:819
+msgid "Submit"
+msgstr ""
+
+#: src/frontend/components/ChatBox.jsx:1580
+msgid "Enter Message"
+msgstr ""
+
+#: src/frontend/components/ChatBox.jsx:1595
+msgid "send"
+msgstr ""
+
+#: src/frontend/components/ChatBox.jsx:1771
+msgid "Your messages will appear here."
+msgstr ""
+
+#: src/frontend/components/ChatBox.jsx:1813
+msgid "No articles found."
+msgstr ""
+
+#: src/frontend/components/ChatBox.jsx:2041
+#: src/frontend/components/ChatBox.jsx:2053
+#: src/frontend/components/ChatBox.jsx:2068
+msgid "comment"
+msgstr ""
+
+#: src/frontend/components/ChatBox.jsx:2043
+msgid "Chat with us"
+msgstr ""

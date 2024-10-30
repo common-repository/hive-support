@@ -1,0 +1,733 @@
+/* ====================
+    ADD NEW INBOX
+====================== */
+
+#hive_lite_support_settings_add_new_business_inbox_container {
+  display: none;
+}
+
+.hive_lite_support_settings_add_new_business_inbox_header {
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.hive_lite_support_settings_add_new_business_inbox_header
+  .hive_lite_support_settings_add_new_business_inbox_header_flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.hive_lite_support_settings_add_new_business_inbox_section_title .title {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  margin: -4px 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.hive_lite_support_settings_new_business_inbox_add {
+  margin-top: 25px;
+}
+.hive_lite_support_settings_new_business_inbox_trigger_inner {
+  position: relative;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.hive_lite_support_settings_new_business_inbox_trigger_title {
+}
+
+.hive_lite_support_settings_new_business_inbox_trigger_contents {
+  border-top: 2px solid rgba(221, 221, 221, 0.5);
+  margin-top: 25px;
+  padding-top: 25px;
+}
+
+/* Custom Radio Css */
+.hive_lite_support_settings_new_business_inbox_trigger_contents
+  .custom-radio-inline
+  .custom-radio-single {
+  padding: 10px;
+  border-radius: 5px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border: 1px solid transparent;
+}
+.hive_lite_support_settings_new_business_inbox_trigger_contents
+  .custom-radio-inline
+  .custom-radio-single.active {
+  border: 1px solid rgba(104, 91, 231, 0.3);
+  background-color: rgba(104, 91, 231, 0.1);
+}
+.hive_lite_support_settings_new_business_inbox_trigger_contents
+  .custom-radio-inline
+  .custom-radio-single.active
+  label {
+  font-weight: 600;
+  color: #1d2635;
+}
+.hive_lite_support_settings_new_business_inbox_trigger_contents
+  .custom-radio-inline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  gap: 12px 20px;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.hive_lite_support_settings_new_business_inbox_trigger_contents
+  .custom-radio
+  label {
+  font-size: 16px;
+  color: #777d86;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  padding: 14px 0;
+}
+.hive_lite_support_settings_new_business_inbox_trigger_contents
+  .custom-radio
+  input[type="radio"] {
+  border: 2px solid #ddd;
+  background: #fff;
+  clear: none;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0;
+  outline: 0;
+  padding: 0 !important;
+  text-align: center;
+  vertical-align: middle;
+  height: 24px;
+  width: 24px;
+  -webkit-appearance: none;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  border-radius: 50%;
+  position: relative;
+  margin-right: 3px;
+}
+.hive_lite_support_settings_new_business_inbox_trigger_contents
+  .custom-radio
+  input[type="radio"]:checked {
+  border-color: #685be7;
+}
+.hive_lite_support_settings_new_business_inbox_trigger_contents
+  .custom-radio
+  input[type="radio"]:checked::before {
+  width: calc(100% - 9px);
+  height: calc(100% - 9px);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  content: "";
+  border-radius: 50%;
+  background-color: #685be7;
+  margin: 0px 0px 0;
+  padding: 0px;
+  line-height: 1;
+}
+
+/* Custom Form */
+.custom--form .single-input,
+.custom-form .single-input {
+  width: 100%;
+  position: relative;
+  margin-top: 25px;
+}
+@media only screen and (max-width: 480px) {
+  .custom--form .single-input:not(:first-child),
+  .custom-form .single-input:not(:first-child) {
+    margin-top: 24px;
+  }
+}
+
+.custom--form .single-input .label-title,
+.custom-form .single-input .label-title {
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 12px;
+  color: var(--heading-color);
+}
+@media only screen and (max-width: 480px) {
+  .custom--form .single-input .label-title,
+  .custom-form .single-input .label-title {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .custom--form .single-input .label-title,
+  .custom-form .single-input .label-title {
+    font-size: 14px;
+  }
+}
+.custom--form .single-input .form--control,
+.custom-form .single-input .form--control {
+  width: 100%;
+  height: 55px;
+  line-height: 55px;
+  padding: 0 15px;
+  border: 1px solid rgba(221, 221, 221, 0.7);
+  background-color: #fff;
+  outline: none;
+  color: #acacac;
+  -webkit-transition: 300ms;
+  transition: 300ms;
+  -webkit-box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  font-size: 15px;
+  border-radius: 10px;
+}
+.custom--form .single-input .form--control:focus,
+.custom-form .single-input .form--control:focus {
+  border-color: rgba(104, 91, 231, 0.3);
+  -webkit-box-shadow: 0 0 10px rgba(104, 91, 231, 0.1);
+  box-shadow: 0 0 10px rgba(104, 91, 231, 0.1);
+}
+@media only screen and (max-width: 480px) {
+  .custom--form .single-input .form--control,
+  .custom-form .single-input .form--control {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .custom--form .single-input .form--control,
+  .custom-form .single-input .form--control {
+    font-size: 14px;
+  }
+}
+.custom--form .single-input .textarea--form,
+.custom-form .single-input .textarea--form {
+  height: unset;
+  line-height: 28px;
+  padding: 15px;
+}
+
+.hive_lite_support_settings_new_business_inbox_trigger_contents .btn-wrapper {
+  display: block;
+  margin-top: 25px;
+}
+
+.hive_lite_support_settings_new_business_inbox_trigger_contents
+  .btn-wrapper
+  .cmn-btn {
+  background: #685be7;
+  color: #fff;
+  border: 2px solid #685be7;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Nunito", sans-serif;
+  display: inline-block;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  line-height: 34px;
+  padding: 7px 35px;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  white-space: nowrap;
+}
+
+.hive_lite_support_settings_new_business_inbox_trigger_contents .btn-wrapper a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  outline: none;
+  color: inherit;
+}
+
+.hive_lite_support_settings_new_business_inbox_single_flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  gap: 12px;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.hive_lite_support_settings_new_business_inbox_single_title {
+}
+
+.hive_lite_support_settings_new_business_inbox_single_right {
+}
+
+.hive_lite_support_settings_new_business_inbox_single_right .get_short_code {
+}
+
+.hive_lite_support_settings_new_business_inbox_single_right
+  .get_short_code
+  .btn-wrapper {
+  display: block;
+}
+
+.hive_lite_support_settings_new_business_inbox_single_right
+  .get_short_code
+  .btn-wrapper
+  .cmn-btn {
+  background: #685be7;
+  color: #fff;
+  border: 2px solid #685be7;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Nunito", sans-serif;
+  display: inline-block;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  line-height: 34px;
+  padding: 7px 35px;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  white-space: nowrap;
+}
+.hive_lite_support_settings_new_business_inbox_single_right
+  .get_short_code
+  .btn-wrapper
+  a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  outline: none;
+  color: inherit;
+}
+
+.hive_lite_support_settings_new_business_inbox_footer_customization_thumb {
+}
+
+.hive_lite_support_settings_new_business_inbox_footer_customization_thumb
+  textarea {
+  max-width: 100%;
+}
+
+.hive_lite_support_settings_new_business_inbox_trigger_contents_flex {
+}
+
+.hive_lite_support_settings_new_business_inbox_contents_list {
+}
+
+.hive_lite_support_settings_new_business_inbox_trigger_contents_flex
+  .list-style-none {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.hive_lite_support_settings_new_business_inbox_contents_list_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.hive_lite_support_settings_new_business_inbox_contents_list_item:not(
+    :first-child
+  ) {
+  padding-top: 25px;
+}
+.hive_lite_support_settings_new_business_inbox_contents_list_item:not(
+    :last-child
+  ) {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #f3f3f3;
+}
+
+.hive_lite_support_settings_new_business_inbox_contents_list_item_title {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 500;
+  color: #777d86;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.hive_lite_support_settings_new_business_inbox_contents_list_switch {
+}
+
+.hive_lite_support_settings_new_business_inbox_contents_list_switch_flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 20px;
+  transition: 300ms;
+}
+
+.hive_lite_support_settings_new_business_inbox_contents_list_switch_flex a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  outline: none;
+  color: inherit;
+}
+
+.hive_lite_support_settings_new_business_inbox_contents_list_switch_icon {
+}
+
+.hive_lite_support_settings_new_business_inbox_contents_list_switch_single {
+}
+
+/* Custom Switch */
+.hive_lite_support_settings_new_business_inbox_contents_list_switch_single
+  .custom-switch
+  .switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+.hive_lite_support_settings_new_business_inbox_contents_list_switch_single
+  .custom-switch
+  .switch.round-switch
+  .slider {
+  border-radius: 34px;
+}
+.hive_lite_support_settings_new_business_inbox_contents_list_switch_single
+  .custom-switch
+  .switch.round-switch
+  .slider::before {
+  border-radius: 50%;
+}
+.hive_lite_support_settings_new_business_inbox_contents_list_switch_single
+  .custom-switch
+  .switch
+  input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.hive_lite_support_settings_new_business_inbox_contents_list_switch_single
+  .custom-switch
+  .switch
+  input:checked
+  + .slider {
+  background-color: #685be7;
+}
+.hive_lite_support_settings_new_business_inbox_contents_list_switch_single
+  .custom-switch
+  .switch
+  input:focus
+  + .slider {
+  -webkit-box-shadow: 0 0 1px #685be7;
+  box-shadow: 0 0 1px #685be7;
+}
+.hive_lite_support_settings_new_business_inbox_contents_list_switch_single
+  .custom-switch
+  .switch
+  input:checked
+  + .slider:before {
+  -webkit-transform: translateX(26px);
+  transform: translateX(26px);
+}
+.hive_lite_support_settings_new_business_inbox_contents_list_switch_single
+  .custom-switch
+  .switch
+  .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.hive_lite_support_settings_new_business_inbox_contents_list_switch_single
+  .custom-switch
+  .switch
+  .slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+/* Short Code Css */
+
+.hive_lite_support_settings_new_business_inbox_short_code_popup {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  max-width: 700px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  visibility: hidden;
+  opacity: 0;
+  z-index: 991;
+  height: calc(100vh - 100px);
+  overflow-y: auto;
+}
+
+.hive_lite_support_settings_new_business_inbox_short_code_popup.show {
+  visibility: visible;
+  opacity: 1;
+}
+
+.hive_lite_support_settings_new_business_inbox_short_code_popup_inner {
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.hive_lite_support_settings_new_business_inbox_short_code_popup_close span {
+  margin: -4px auto 0;
+  display: inline-block;
+}
+
+.hive_lite_support_settings_new_business_inbox_short_code_popup_title {
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  color: #1d2635;
+  font-family: "Outfit", sans-serif;
+  margin: 0;
+  -webkit-transition: 300ms;
+  transition: 300ms;
+  line-height: 1.0833333333;
+}
+
+.hive_lite_support_settings_new_business_inbox_short_code_popup_contents {
+  border-top: 1px solid #f3f3f3;
+  padding-top: 25px;
+  margin-top: 25px;
+}
+
+.hive_lite_support_settings_new_business_inbox_short_code_popup_single {
+}
+.hive_lite_support_settings_new_business_inbox_short_code_popup_single:not(
+    :first-child
+  ) {
+  margin-top: 20px;
+}
+
+.hive_lite_support_settings_new_business_inbox_short_code_popup_single_title {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.hive_lite_support_settings_new_business_inbox_short_code_popup_single h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  display: block;
+  color: #1d2635;
+  font-family: "Outfit", sans-serif;
+  margin: 0;
+  -webkit-transition: 300ms;
+  transition: 300ms;
+  line-height: 1.2380952381;
+}
+
+.hive_lite_support_settings_new_business_inbox_short_code_popup_single_input {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 10px 50px 10px 15px;
+}
+
+.hive_lite_support_settings_new_business_inbox_short_code_popup_single_input
+  .myInput {
+  width: 100%;
+  border: 0;
+  background-color: unset;
+}
+
+.hive_lite_support_settings_new_business_inbox_short_code_popup_single_input_icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 100%;
+  width: 40px;
+  font-size: 24px;
+  background-color: #1d2635;
+  color: #fff;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  cursor: pointer;
+}
+
+.hive_lite_support_settings_new_business_inbox_short_code_popup_single_input_icon
+  img {
+  max-width: 100%;
+  border: none;
+}
+
+/* Popup Edit */
+.hive_lite_support_settings_new_business_inbox_popup_close {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  background-color: #685be7;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+.hive_lite_support_settings_new_business_inbox_popup_close span {
+  margin: -4px auto 0;
+}
+
+.hive_lite_support_settings_new_business_inbox_popup_edit {
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* IE 9 */
+  -webkit-transform: translate(-50%, -50%) scale(0.5);
+  /* Chrome, Safari, Opera */
+  transform: translate(-50%, -50%) scale(0.5);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  visibility: hidden;
+  opacity: 0;
+  overflow: hidden;
+  z-index: 91;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.hive_lite_support_settings_new_business_inbox_popup_edit.show {
+  visibility: visible;
+  opacity: 1;
+  /* IE 9 */
+  -webkit-transform: translate(-50%, -50%) scale(1);
+  /* Chrome, Safari, Opera */
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.hive_lite_support_settings_new_business_inbox_popup_edit {
+}
+
+.hive_lite_support_settings_new_business_inbox_popup_edit_contents_list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.hive_lite_support_settings_new_business_inbox_popup_edit_contents_list_item {
+  cursor: pointer;
+  padding: 5px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #777d86;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border-radius: 3px;
+  margin-right: 15px;
+}
+.hive_lite_support_settings_new_business_inbox_popup_edit_contents_list_item:not(
+    :last-child
+  ) {
+  padding-bottom: 10px;
+}
+.hive_lite_support_settings_new_business_inbox_popup_edit_contents_list_item:not(
+    :first-child
+  ) {
+  border-top: 1px solid #f3f3f3;
+  padding-top: 10px;
+}
+.hive_lite_support_settings_new_business_inbox_popup_edit_contents_list_item:hover {
+  background-color: #f1f1f1;
+  color: #685be7;
+}
+
+.hive_lite_support_settings_new_business_inbox_popup_overlay {
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100vh;
+  width: 100%;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  z-index: 90;
+}
+.hive_lite_support_settings_new_business_inbox_popup_overlay.show {
+  visibility: visible;
+  opacity: 1;
+}

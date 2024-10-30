@@ -1,0 +1,306 @@
+/* ====================
+    Tickets
+====================== */
+
+#hive_lite_support_tickets {
+  display: none;
+}
+
+.hive_lite_support_tickets_summary {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.hive_lite_support_tickets_summary_item {
+  flex: 1;
+  position: relative;
+  padding: 30px;
+  border-radius: 10px;
+  background: #fff;
+}
+.hive_lite_support_tickets_summary_item:before {
+  content: " ";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.1;
+  background-repeat: no-repeat;
+  background-position-x: calc(100% - 20px);
+  background-position-y: 100%;
+}
+.hive_lite_support_tickets_summary_item:nth-child(1):before {
+  background-image: url(../img/tickets/summary-shape1.svg);
+  background-size: 66px;
+}
+.hive_lite_support_tickets_summary_item:nth-child(2):before {
+  background-image: url(../img/tickets/summary-shape2.svg);
+  background-size: 95px;
+}
+.hive_lite_support_tickets_summary_item:nth-child(3):before {
+  background-image: url(../img/tickets/summary-shape3.svg);
+  background-size: 110px;
+}
+.hive_lite_support_tickets_summary_item:nth-child(4):before {
+  background-image: url(../img/tickets/summary-shape4.svg);
+  background-size: 95px;
+}
+
+.hive_lite_support_tickets_summary_item p {
+  margin: 0;
+  font-size: 18px;
+  line-height: 26px;
+  color: #777d86;
+}
+.hive_lite_support_tickets_summary_item h3 {
+  margin: 0;
+  font-size: 48px;
+  line-height: 55px;
+  color: #1d2635;
+}
+
+.hive_lite_support_tickets_empty {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 16px;
+  color: #777d86;
+}
+
+.hive_lite_support_tickets_container {
+}
+.hive_lite_support_tickets_container table {
+  width: 100%;
+  color: inherit;
+  vertical-align: middle;
+  font-weight: 400;
+  border-collapse: separate;
+  border-spacing: 0 24px;
+  table-layout: fixed;
+}
+.hive_lite_support_tickets_container table thead {
+  background: inherit;
+  color: inherit;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Outfit", sans-serif;
+  text-align: left;
+}
+.hive_lite_support_tickets_container table tr {
+  background-color: #fff !important;
+  padding: 10px;
+  border: 0;
+  cursor: pointer;
+}
+.hive_lite_support_tickets_container table tr th {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1d2635;
+  padding: 20px 20px;
+  min-width: 200px;
+}
+.hive_lite_support_tickets_container table tr td {
+  font-size: 18px;
+  color: #1d2635;
+  padding: 20px 20px;
+  line-height: 22px;
+}
+.hive_lite_support_tickets_container table tr th:first-child,
+.hive_lite_support_tickets_container table tr td:first-child {
+  text-align: left;
+  border-top-left-radius: 10px !important;
+  border-bottom-left-radius: 10px !important;
+}
+.hive_lite_support_tickets_container table tr th:last-child,
+.hive_lite_support_tickets_container table tr td:last-child {
+  text-align: left;
+  border-top-right-radius: 10px !important;
+  border-bottom-right-radius: 10px !important;
+}
+
+/* .hive_lite_support_tickets_table_user {
+  min-width: 330px;
+} */
+.hive_lite_support_tickets_table_user img {
+  height: 55px;
+  width: 50px;
+  border-radius: 50%;
+}
+.hive_lite_support_tickets_table_user h5 {
+  cursor: pointer;
+  margin: 7px 0 0 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: #1d2635;
+  display: flex;
+  align-items: center;
+}
+
+.hive_lite_support_tickets_table_user h5 span:nth-child(1) {
+  max-width: 260px;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+}
+.hive_lite_support_tickets_table_user h5 span:nth-child(2) {
+  margin: 0 0 0 10px;
+  font-size: 18px;
+  color: #777d86;
+}
+.hive_lite_support_tickets_table_user p {
+  font-size: 15px;
+  color: #777d86;
+  font-weight: 500;
+  margin: 5px 0 0 0;
+}
+.hive_lite_support_tickets_table_user span.ticket_user {
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  color: #685be7;
+  margin: 5px 0 0 0;
+}
+
+.hive_lite_support_tickets_table_data span.ticket_status {
+  color: #777d83;
+  padding: 0 0 0 27px;
+  font-size: 16px;
+  display: block;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: transparent url(../img/tickets/status_wave.svg) no-repeat;
+  background-size: 19px;
+  background-position-x: 0px;
+  background-position-y: center;
+}
+.hive_lite_support_tickets_table_data span.ticket_updated {
+  color: #777d83;
+  padding: 0 0 0 27px;
+  font-size: 16px;
+  display: block;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: transparent url(../img/tickets/ticket_updated.svg) no-repeat;
+  background-size: 19px;
+  background-position-x: 0px;
+  background-position-y: center;
+}
+.hive_lite_support_tickets_table_data span.ticket_created {
+  color: #777d83;
+  padding: 0 0 0 27px;
+  font-size: 16px;
+  display: block;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: transparent url(../img/tickets/ticket_created.svg) no-repeat;
+  background-size: 19px;
+  background-position-x: 0px;
+  background-position-y: center;
+}
+
+.hive_lite_support_tickets_table_staff {
+  min-width: 200px;
+  display: flex;
+  align-items: center;
+}
+.hive_lite_support_tickets_table_staff img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+.hive_lite_support_tickets_table_staff h5 {
+  margin: 0 0 0 10px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #777d83;
+  width: 126px;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+}
+
+.hive_lite_support_ticket_filter_container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  background: #fff;
+  margin-top: 25px;
+  flex-wrap: wrap;
+}
+.hive_lite_support_ticket_filter_items {
+  flex: 1;
+  position: relative;
+}
+
+.hive_lite_support_ticket_filter_items_label {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1d2635;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.hive_lite_support_ticket_filter_items_dropdown {
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.hive_lite_support_ticket_filter_items_dropdown:hover {
+  background-color: white;
+}
+
+/* Change the color of the options inside the dropdown */
+.hive_lite_support_ticket_filter_items_dropdown option {
+  color: black;
+}
+
+.hive_lite_support_ticket_filter_btn_wrapper {
+}
+
+.hive_lite_support_ticket_filter_btn_wrapper
+  .hive_lite_support_ticket_filter_btn {
+  font-size: 16px;
+  font-weight: 500;
+  display: inline-block;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  line-height: 34px;
+  padding: 7px 35px;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  white-space: nowrap;
+  border: 2px solid #685be7;
+  background: #685be7;
+  color: #fff;
+}
+
+.hive_lite_support_ticket_filter_btn_wrapper
+  .hive_lite_support_ticket_filter_btn:hover {
+  background-color: white;
+  color: #685be7;
+}
+.ticket-watch-status {
+  background: #fe7747;
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 5px;
+  display: inline-block;
+  line-height: 1;
+  font-size: 12px;
+  font-weight: 700;
+}
+.ticket-watch-status.new_reply{
+  background: #008000;
+}

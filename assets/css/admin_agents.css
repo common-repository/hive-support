@@ -1,0 +1,569 @@
+/* ====================
+    Agents
+====================== */
+
+#hive_lite_support_agents {
+  display: none;
+}
+
+/* Agent Add Form */
+.hive_lite_support_agents_add {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+.hive_lite_support_agents_add h3 {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 600;
+  color: #1d2635;
+}
+.hive_lite_support_agents_add p {
+  color: #acacac;
+  margin: 10px 0;
+  font-size: 16px;
+}
+.hive_lite_support_agents_add .hive_lite_support_agents_add_error {
+  margin: 35px 0 0 0;
+  padding: 10px 20px;
+  background: #fff1f1;
+  color: #ba3535;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 10px;
+  border: 1px solid #ba3535;
+}
+.hive_lite_support_agents_add .hive_lite_support_agents_add_form {
+  margin: 35px 0 0 0;
+}
+.hive_lite_support_agents_add
+  .hive_lite_support_agents_add_form
+  .hive_lite_support_agents_add_form_single_field {
+  margin: 0 0 10px 0;
+}
+.hive_lite_support_agents_add_form_single_field
+  .hive_lite_support_agents_element_label {
+  display: block;
+  color: #2b2a2d;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0 0 10px 0;
+}
+.hive_lite_support_agents_add_form_single_field input[type="text"],
+.hive_lite_support_agents_add_form_single_field input[type="tel"],
+.hive_lite_support_agents_add_form_single_field input[type="email"],
+.hive_lite_support_agents_add_form_single_field input[type="url"],
+.hive_lite_support_agents_add_form_single_field input[type="password"],
+.hive_lite_support_agents_add_form_single_field input[type="number"],
+.hive_lite_support_agents_add_form_single_field input[type="time"],
+.hive_lite_support_agents_add_form_single_field input[type="date"],
+.hive_lite_support_agents_add_form_single_field input[type="datetime-local"],
+.hive_lite_support_agents_add_form_single_field textarea,
+.hive_lite_support_agents_add_form_single_field select {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 10px 15px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #484848;
+  background: #fff;
+  border: 1px solid #dddddd;
+  border-radius: 10px;
+  outline: none;
+  box-shadow: none;
+}
+.hive_lite_support_agents_add_form_single_field.hive_lite_support_field_error
+  input[type="text"],
+.hive_lite_support_agents_add_form_single_field.hive_lite_support_field_error
+  input[type="tel"],
+.hive_lite_support_agents_add_form_single_field.hive_lite_support_field_error
+  input[type="email"],
+.hive_lite_support_agents_add_form_single_field.hive_lite_support_field_error
+  input[type="url"],
+.hive_lite_support_agents_add_form_single_field.hive_lite_support_field_error
+  input[type="password"],
+.hive_lite_support_agents_add_form_single_field.hive_lite_support_field_error
+  input[type="number"],
+.hive_lite_support_agents_add_form_single_field.hive_lite_support_field_error
+  input[type="time"],
+.hive_lite_support_agents_add_form_single_field.hive_lite_support_field_error
+  input[type="date"],
+.hive_lite_support_agents_add_form_single_field.hive_lite_support_field_error
+  input[type="datetime-local"],
+.hive_lite_support_agents_add_form_single_field.hive_lite_support_field_error
+  textarea,
+.hive_lite_support_agents_add_form_single_field.hive_lite_support_field_error
+  select {
+  background: #faf1f1;
+  border: 1px solid #d94343;
+}
+
+.hive_lite_support_agents_add_form_single_field .checkbox_container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  row-gap: 8px;
+  column-gap: 0;
+  justify-content: left;
+}
+.hive_lite_support_agents_add_form_single_field .checkbox_container.horizontal {
+  flex-direction: row;
+  column-gap: 20px;
+  row-gap: 0;
+}
+
+.hive_lite_support_agents_add_form_single_field .checkbox_item {
+  display: inline-block;
+  position: relative;
+  padding-left: 26px;
+  cursor: pointer;
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+  color: #43454b;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.hive_lite_support_agents_add_form_single_field
+  .checkbox_item
+  input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.hive_lite_support_agents_add_form_single_field .checkbox_item .checkmark {
+  position: absolute;
+  top: calc(50% - 16px / 2);
+  left: 0;
+  height: 16px;
+  width: 16px;
+  background: #f6f8fa;
+  border: 1px solid #e4e4e6;
+  border-radius: 0;
+}
+.hive_lite_support_agents_add_form_single_field
+  .checkbox_item
+  input[type="checkbox"]:checked
+  ~ .checkmark {
+  background: #685be7;
+  border: 1px solid #685be7;
+}
+
+.hive_lite_support_agents_add_form_single_field
+  .checkbox_item
+  input[type="checkbox"]:checked
+  ~ .checkmark {
+  background: #685be7 url("../img/agents/checkbox_tick_icon.svg") no-repeat;
+  background-size: 10px;
+  background-position-x: center;
+  background-position-y: center;
+}
+
+.hive_lite_support_agents_add
+  .hive_lite_support_agents_add_form
+  .hive_lite_support_agents_add_actions {
+  display: flex;
+}
+.hive_lite_support_agents_add_actions button {
+  width: 200px;
+  margin: 0 0 0 auto;
+  padding: 10px 15px;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #685be7;
+  color: #ffffff;
+  border-radius: 5px;
+  font-size: 20px;
+  transition: 0.3s;
+  border: 2px solid transparent;
+}
+.hive_lite_support_agents_add_actions button:hover {
+  border: 2px solid #685be7;
+  background: transparent;
+  color: #6e32c9;
+}
+
+/* Agent Update Popup Form */
+.hive_lite_support_agents_update_popup {
+  position: fixed;
+  z-index: 10500;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.hive_lite_support_agents_update_popup
+  .hive_lite_support_agents_update_popup_dark_bg {
+  background: #252f3c;
+  opacity: 0.5;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+}
+.hive_lite_support_agents_update {
+  width: 100%;
+  max-width: 756px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+}
+.hive_lite_support_agents_update .hive_lite_support_agents_update_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hive_lite_support_agents_update
+  .hive_lite_support_agents_update_header
+  span.hive_lite_support_agents_update_close_icon {
+  width: 25px;
+  height: 25px;
+  display: block;
+  cursor: pointer;
+  background: url(../img/agents/popup_close.svg) no-repeat;
+  background-size: 25px;
+  background-position: center;
+}
+.hive_lite_support_agents_update .hive_lite_support_agents_update_header h3 {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 600;
+  color: #1d2635;
+}
+.hive_lite_support_agents_update .hive_lite_support_agents_update_header p {
+  color: #acacac;
+  margin: 10px 0;
+  font-size: 16px;
+}
+.hive_lite_support_agents_update .hive_lite_support_agents_update_form {
+  margin: 25px 0 0 0;
+}
+.hive_lite_support_agents_update
+  .hive_lite_support_agents_update_form
+  .hive_lite_support_agents_update_form_single_field {
+  margin: 0 0 10px 0;
+}
+.hive_lite_support_agents_update_form_single_field
+  .hive_lite_support_agents_element_label {
+  display: block;
+  color: #2b2a2d;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0 0 10px 0;
+}
+.hive_lite_support_agents_update_form_single_field input[type="text"],
+.hive_lite_support_agents_update_form_single_field input[type="tel"],
+.hive_lite_support_agents_update_form_single_field input[type="email"],
+.hive_lite_support_agents_update_form_single_field input[type="url"],
+.hive_lite_support_agents_update_form_single_field input[type="password"],
+.hive_lite_support_agents_update_form_single_field input[type="number"],
+.hive_lite_support_agents_update_form_single_field input[type="time"],
+.hive_lite_support_agents_update_form_single_field input[type="date"],
+.hive_lite_support_agents_update_form_single_field input[type="datetime-local"],
+.hive_lite_support_agents_update_form_single_field textarea,
+.hive_lite_support_agents_update_form_single_field select {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 10px 15px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #484848;
+  background: #fff;
+  border: 1px solid #dddddd;
+  border-radius: 10px;
+  outline: none;
+  box-shadow: none;
+}
+.hive_lite_support_agents_update_form_single_field.hive_lite_support_field_error
+  input[type="text"],
+.hive_lite_support_agents_update_form_single_field.hive_lite_support_field_error
+  input[type="tel"],
+.hive_lite_support_agents_update_form_single_field.hive_lite_support_field_error
+  input[type="email"],
+.hive_lite_support_agents_update_form_single_field.hive_lite_support_field_error
+  input[type="url"],
+.hive_lite_support_agents_update_form_single_field.hive_lite_support_field_error
+  input[type="password"],
+.hive_lite_support_agents_update_form_single_field.hive_lite_support_field_error
+  input[type="number"],
+.hive_lite_support_agents_update_form_single_field.hive_lite_support_field_error
+  input[type="time"],
+.hive_lite_support_agents_update_form_single_field.hive_lite_support_field_error
+  input[type="date"],
+.hive_lite_support_agents_update_form_single_field.hive_lite_support_field_error
+  input[type="datetime-local"],
+.hive_lite_support_agents_update_form_single_field.hive_lite_support_field_error
+  textarea,
+.hive_lite_support_agents_update_form_single_field.hive_lite_support_field_error
+  select {
+  background: #faf1f1;
+  border: 1px solid #d94343;
+}
+
+.hive_lite_support_agents_update_form_single_field .checkbox_container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  row-gap: 8px;
+  column-gap: 0;
+  justify-content: left;
+}
+.hive_lite_support_agents_update_form_single_field
+  .checkbox_container.horizontal {
+  flex-direction: row;
+  column-gap: 20px;
+  row-gap: 0;
+}
+
+.hive_lite_support_agents_update_form_single_field .checkbox_item {
+  display: inline-block;
+  position: relative;
+  padding-left: 26px;
+  cursor: pointer;
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+  color: #43454b;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.hive_lite_support_agents_update_form_single_field
+  .checkbox_item
+  input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.hive_lite_support_agents_update_form_single_field .checkbox_item .checkmark {
+  position: absolute;
+  top: calc(50% - 16px / 2);
+  left: 0;
+  height: 16px;
+  width: 16px;
+  background: #f6f8fa;
+  border: 1px solid #e4e4e6;
+  border-radius: 0;
+}
+.hive_lite_support_agents_update_form_single_field
+  .checkbox_item
+  input[type="checkbox"]:checked
+  ~ .checkmark {
+  background: #685be7;
+  border: 1px solid #685be7;
+}
+
+.hive_lite_support_agents_update_form_single_field
+  .checkbox_item
+  input[type="checkbox"]:checked
+  ~ .checkmark {
+  background: #685be7 url("../img/agents/checkbox_tick_icon.svg") no-repeat;
+  background-size: 10px;
+  background-position-x: center;
+  background-position-y: center;
+}
+
+.hive_lite_support_agents_update
+  .hive_lite_support_agents_update_form
+  .hive_lite_support_agents_update_actions {
+  display: flex;
+}
+.hive_lite_support_agents_update_actions button {
+  width: 200px;
+  margin: 0 0 0 auto;
+  padding: 10px 15px;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #685be7;
+  color: #ffffff;
+  border-radius: 5px;
+  font-size: 20px;
+  transition: 0.3s;
+  border: 2px solid transparent;
+}
+.hive_lite_support_agents_update_actions button:hover {
+  border: 2px solid #685be7;
+  background: transparent;
+  color: #6e32c9;
+}
+
+.hive_lite_support_agents_container {
+}
+.hive_lite_support_agents_container table {
+  width: 100%;
+  color: inherit;
+  vertical-align: middle;
+  font-weight: 400;
+  border-collapse: separate;
+  border-spacing: 0 24px;
+  table-layout: fixed;
+}
+.hive_lite_support_agents_container table thead {
+  background: inherit;
+  color: inherit;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Outfit", sans-serif;
+  text-align: left;
+}
+
+.hive_lite_support_agents_container table tr {
+  background-color: #fff !important;
+  padding: 10px;
+  border: 0;
+}
+
+.hive_lite_support_agents_container table tr th {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1d2635;
+  padding: 20px 20px;
+  min-width: 200px;
+}
+.hive_lite_support_agents_container table tr td {
+  font-size: 18px;
+  color: #1d2635;
+  padding: 20px 20px;
+  line-height: 22px;
+}
+
+.hive_lite_support_agents_container table tr th:first-child,
+.hive_lite_support_agents_container table tr td:first-child {
+  text-align: left;
+  border-top-left-radius: 10px !important;
+  border-bottom-left-radius: 10px !important;
+}
+.hive_lite_support_agents_container table tr th:last-child,
+.hive_lite_support_agents_container table tr td:last-child {
+  text-align: left;
+  border-top-right-radius: 10px !important;
+  border-bottom-right-radius: 10px !important;
+}
+
+.hive_lite_support_agents_table_user {
+  min-width: 330px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.hive_lite_support_agents_table_user img {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+}
+.hive_lite_support_agents_table_user
+  .hive_lite_support_agents_table_user_info
+  h5 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #1d2635;
+  width: 170px;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+}
+.hive_lite_support_agents_table_user
+  .hive_lite_support_agents_table_user_info
+  p {
+  font-size: 15px;
+  color: #777d86;
+  margin: 5px 0 0 0;
+}
+
+.hive_lite_support_agents_table_data span {
+  display: block;
+  font-size: 18px;
+  color: #1d2635;
+  line-height: 22px;
+}
+.hive_lite_support_agents_table_data h4 {
+  font-size: 24px;
+  color: #1d2635;
+  font-weight: 600;
+  line-height: 28px;
+  width: 183px;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+}
+
+.hive_lite_support_agents_table_action {
+  display: flex;
+}
+
+.hive_lite_support_agents_table_action button.hive_lite_support_edit {
+  cursor: pointer;
+  box-sizing: border-box;
+  display: inline-block;
+  width: 45px;
+  height: 42px;
+  border: 0;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  outline: none;
+  box-shadow: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: #685be7 url(../img/agents/action_edit_icon.svg) no-repeat;
+  background-size: 17px;
+  background-position-x: center;
+  background-position-y: center;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+.hive_lite_support_agents_table_action button.hive_lite_support_edit:hover {
+  background: #8379e5 url(../img/agents/action_edit_icon.svg) no-repeat;
+  background-size: 17px;
+  background-position-x: center;
+  background-position-y: center;
+}
+.hive_lite_support_agents_table_action button.hive_lite_support_delete {
+  cursor: pointer;
+  box-sizing: border-box;
+  display: inline-block;
+  width: 45px;
+  height: 42px;
+  border: 0;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  outline: none;
+  box-shadow: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: #b60000 url(../img/agents/action_delete_icon.svg) no-repeat;
+  background-size: 17px;
+  background-position-x: center;
+  background-position-y: center;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+.hive_lite_support_agents_table_action button.hive_lite_support_delete:hover {
+  background: #b45656 url(../img/agents/action_delete_icon.svg) no-repeat;
+  background-size: 17px;
+  background-position-x: center;
+  background-position-y: center;
+}

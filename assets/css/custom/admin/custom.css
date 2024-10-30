@@ -1,0 +1,63 @@
+.ticket_media_upload {
+    margin-bottom: 18px;
+    margin-top: 30px;
+    border: dashed 3px #1F8FEB;
+    background: #E5EAF0;
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+}
+
+.btn-extra-style {
+    height: 52px;
+    width: 173px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+svg.upload_svg {
+    height: 30px;
+    width: 30px;
+    color: #1600e9;
+}
+
+.ticket_media_upload .upload_text {
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    color: #1F8FEB;
+}
+
+
+.reply_thraed_uploaded_files {
+    padding: 0px 0px 20px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.button_file_item {
+    display: flex;
+    padding: 10px 20px;
+    background: #e4f2fd;
+    gap: 13px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.reply_thraed_uploaded_files a {
+    color: #1F8FEB;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+span#mceu_28 {
+    display: none;
+}

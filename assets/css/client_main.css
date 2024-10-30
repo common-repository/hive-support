@@ -1,0 +1,772 @@
+.hive_lite_support_client {
+  padding: 6px 10px;
+}
+
+/* Loader */
+.hive_lite_support_client_loader {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: -webkit-fill-available;
+  height: 300px;
+}
+
+.hive_lite_support_loader,
+.hive_lite_support_loader:after {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+}
+
+.hive_lite_support_loader {
+  border-top: 8px solid #685be7;
+  border-right: 8px solid #cecddf;
+  border-bottom: 8px solid #cecddf;
+  border-left: 8px solid #685be7;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-animation: load8 1.1s infinite linear;
+  animation: load8 1.1s infinite linear;
+}
+
+@-webkit-keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+/* ==============
+Tickets
+=============== */
+
+#hive_lite_support_client_tickets {
+  display: none;
+}
+
+.hive_lite_support_client_tickets_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #f3f3f3;
+  padding: 0 0 17px 0;
+}
+
+.hive_lite_support_client_tickets_header h4 {
+  color: #1d2635;
+  margin: 0;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 600;
+}
+
+.hive_lite_support_client_tickets_header button.show_form {
+  padding: 7px 25px;
+  background-color: #685be7;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 30px;
+  border: 0;
+  outline: none;
+  box-shadow: none;
+  -webkit-appearance: none;
+}
+
+.hive_lite_support_client_tickets_empty {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+}
+
+.hive_lite_support_client_tickets_items {
+  margin-top: 30px;
+}
+
+.hive_lite_support_client_tickets_item {
+  margin-top: 25px;
+  border-radius: 10px;
+  border: 1px solid #e2e2ef;
+}
+
+.hive_lite_support_client_tickets_item
+  .hive_lite_support_client_tickets_item_body {
+  display: flex;
+  align-items: flex-start;
+  background: #ffffff;
+  border-radius: 10px 10px 0 0;
+  padding: 20px;
+  gap: 20px;
+}
+
+.hive_lite_support_client_tickets_item
+  .hive_lite_support_client_tickets_item_body
+  img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.hive_lite_support_client_tickets_item
+  .hive_lite_support_client_tickets_item_body
+  a {
+  display: block;
+  margin: 0;
+  outline: none;
+  text-decoration: none !important;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #1d2635;
+}
+
+.hive_lite_support_client_tickets_item
+  .hive_lite_support_client_tickets_item_body
+  a
+  span {
+  margin: 0 0 0 10px;
+  font-size: 20px;
+  color: #777d83;
+}
+
+.hive_lite_support_client_tickets_item
+  .hive_lite_support_client_tickets_item_body
+  p {
+  display: block;
+  margin: 5px 0 0 0;
+  font-size: 16px;
+  line-height: 24px;
+  color: #777d86;
+}
+
+.hive_lite_support_client_tickets_item
+  .hive_lite_support_client_tickets_item_body
+  .hive_lite_support_client_tickets_item_body_details {
+  flex: 1;
+}
+
+.hive_lite_support_client_tickets_item
+  .hive_lite_support_client_tickets_item_footer {
+  border-top: 1px solid #e2e2ef;
+  background: #fafbff;
+  border-radius: 0 0 10px 10px;
+  padding: 10px;
+}
+
+.hive_lite_support_client_tickets_item
+  .hive_lite_support_client_tickets_item_footer
+  ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px 0;
+}
+
+.hive_lite_support_client_tickets_item
+  .hive_lite_support_client_tickets_item_footer
+  ul
+  li {
+  padding-right: 20px;
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #777d86;
+}
+
+.hive_lite_support_client_tickets_item
+  .hive_lite_support_client_tickets_item_footer
+  ul
+  li:not(:first-child) {
+  padding-left: 20px;
+}
+
+.hive_lite_support_client_tickets_item
+  .hive_lite_support_client_tickets_item_footer
+  ul
+  li:not(:first-child)::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 80%;
+  width: 2px;
+  top: 50%;
+  /* IE 9 */
+  -webkit-transform: translateY(-50%);
+  /* Chrome, Safari, Opera */
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* ==============
+Thread
+=============== */
+
+#hive_lite_support_client_thread {
+  display: none;
+}
+
+.hive_lite_support_client_thread_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #f3f3f3;
+  padding: 0 0 17px 0;
+}
+
+.hive_lite_support_client_thread_header h4 {
+  color: #1d2635;
+  margin: 0;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 600;
+}
+
+.hive_lite_support_client_thread_header button.show_tickets {
+  padding: 12px 25px;
+  background-color: transparent;
+  color: #685be7;
+  font-size: 16px;
+  border: 0;
+  outline: none;
+  box-shadow: none;
+  -webkit-appearance: none;
+}
+
+.hive_lite_support_thread_reply_form {
+  border-radius: 10px;
+  border: 1px solid #e2e2ef;
+  padding: 10px 30px 20px 30px;
+  -webkit-box-shadow: 0 5px 8px -6px #ccc;
+  -moz-box-shadow: 0 5px 8px -6px #ccc;
+  box-shadow: 0 5px 8px -6px #ccc;
+  background: #fff;
+}
+
+.hive_lite_support_client_thread_items {
+  margin-top: 30px;
+}
+
+.hive_lite_support_client_thread_item {
+  margin-top: 25px;
+  border-radius: 10px;
+  border: 1px solid #e2e2ef;
+  background: #fff;
+}
+
+.hive_lite_support_client_thread_item
+  .hive_lite_support_client_thread_item_header {
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  border-radius: 10px 10px 0 0;
+  padding: 20px 20px 5px 20px;
+  gap: 20px;
+}
+
+.hive_lite_support_client_thread_item
+  .hive_lite_support_client_thread_item_header
+  img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.hive_lite_support_client_thread_item
+  .hive_lite_support_client_thread_item_header_details {
+}
+
+.hive_lite_support_client_thread_item
+  .hive_lite_support_client_thread_item_header_details
+  a {
+  display: block;
+  margin: 0 0 5px 0;
+  text-decoration: none !important;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #1d2635;
+}
+
+.hive_lite_support_client_thread_item
+  .hive_lite_support_client_thread_item_header_details
+  span.response_by {
+  padding: 4px 10px;
+  font-size: 15px;
+  color: #fff;
+  border-radius: 4px;
+  background: #685be7;
+}
+
+.hive_lite_support_client_thread_item
+  .hive_lite_support_client_thread_item_header_details
+  span.response_at {
+  padding: 4px 10px;
+  font-size: 15px;
+  color: #777d86;
+}
+
+.hive_lite_support_client_thread_item
+  .hive_lite_support_client_thread_item_body
+  p {
+  padding: 0px 20px 20px 20px;
+}
+
+.hive_lite_support_client_thread_item
+  .hive_lite_support_client_thread_item_body
+  p {
+  display: block;
+  margin: 5px 0 0 0;
+  font-size: 16px;
+  line-height: 24px;
+  color: #777d86;
+}
+
+/* ==============
+Form
+=============== */
+
+#hive_lite_support_client_form {
+  display: none;
+}
+
+.hive_lite_support_client_form_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #f3f3f3;
+  padding: 0 0 17px 0;
+}
+
+.hive_lite_support_client_form_header h4 {
+  color: #1d2635;
+  margin: 0;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 600;
+}
+
+.hive_lite_support_client_form_header button.show_tickets {
+  padding: 12px 25px;
+  background-color: transparent;
+  color: #685be7;
+  font-size: 16px;
+  border: 0;
+  outline: none;
+  box-shadow: none;
+  -webkit-appearance: none;
+}
+
+.hive_lite_support_client_form_body {
+  margin-top: 15px;
+}
+
+.hive_lite_support_single_form_element {
+  --hive_lite_support_field_bg_color: #e5eaf0;
+  --hive_lite_support_field_bg_color_focus: #ffffff;
+  --hive_lite_support_field_border_color: #d3e0f0;
+  --hive_lite_support_field_border_color_focus: #d9d9db;
+  --hive_lite_support_field_text_color: #43454b;
+  --hive_lite_support_field_text_color_focus: #43454b;
+  --hive_lite_support_field_radio_checked_bg_color: #787b83;
+  --hive_lite_support_field_label_color: #2b2a2d;
+  --hive_lite_support_field_padding_top_bottom: 10px;
+  --hive_lite_support_field_padding_left_right: 12px;
+  --hive_lite_support_field_text_size: 14px;
+  --hive_lite_support_field_label_text_size: 16px;
+}
+
+.hive_lite_support_single_form_element {
+  padding-top: 18px;
+  word-break: break-all;
+}
+
+.hive_lite_support_single_form_element label {
+  display: block;
+  color: var(--hive_lite_support_field_label_color);
+  font-size: var(--hive_lite_support_field_label_text_size);
+  font-weight: 600;
+  margin: 0 0 4px 0;
+}
+
+.hive_lite_support_single_form_element .hive_lite_support_element_field_main {
+  flex: 1;
+}
+
+.hive_lite_support_single_form_element input[type="text"],
+.hive_lite_support_single_form_element input[type="tel"],
+.hive_lite_support_single_form_element input[type="email"],
+.hive_lite_support_single_form_element input[type="url"],
+.hive_lite_support_single_form_element input[type="password"],
+.hive_lite_support_single_form_element input[type="number"],
+.hive_lite_support_single_form_element input[type="time"],
+.hive_lite_support_single_form_element input[type="date"],
+.hive_lite_support_single_form_element input[type="datetime-local"],
+.hive_lite_support_single_form_element textarea,
+.hive_lite_support_single_form_element select {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: var(--hive_lite_support_field_padding_top_bottom)
+    var(--hive_lite_support_field_padding_left_right);
+  font-size: var(--hive_lite_support_field_text_size);
+  color: var(--hive_lite_support_field_text_color);
+  background: var(--hive_lite_support_field_bg_color);
+  border: 1px solid var(--hive_lite_support_field_border_color);
+  border-radius: 5px;
+  outline: none;
+  box-shadow: none;
+}
+
+.hive_lite_support_single_form_element.hive_lite_support_field_error_occurred
+  input[type="text"],
+.hive_lite_support_single_form_element.hive_lite_support_field_error_occurred
+  input[type="tel"],
+.hive_lite_support_single_form_element.hive_lite_support_field_error_occurred
+  input[type="email"],
+.hive_lite_support_single_form_element.hive_lite_support_field_error_occurred
+  input[type="url"],
+.hive_lite_support_single_form_element.hive_lite_support_field_error_occurred
+  input[type="password"],
+.hive_lite_support_single_form_element.hive_lite_support_field_error_occurred
+  input[type="number"],
+.hive_lite_support_single_form_element.hive_lite_support_field_error_occurred
+  input[type="time"],
+.hive_lite_support_single_form_element.hive_lite_support_field_error_occurred
+  input[type="date"],
+.hive_lite_support_single_form_element.hive_lite_support_field_error_occurred
+  input[type="datetime-local"],
+.hive_lite_support_single_form_element.hive_lite_support_field_error_occurred
+  textarea,
+.hive_lite_support_single_form_element.hive_lite_support_field_error_occurred
+  select {
+  border: 1px solid #f56c6c;
+}
+
+.hive_lite_support_single_form_element input[type="text"]:focus,
+.hive_lite_support_single_form_element input[type="tel"]:focus,
+.hive_lite_support_single_form_element input[type="email"]:focus,
+.hive_lite_support_single_form_element input[type="url"]:focus,
+.hive_lite_support_single_form_element input[type="password"]:focus,
+.hive_lite_support_single_form_element input[type="number"]:focus,
+.hive_lite_support_single_form_element input[type="time"]:focus,
+.hive_lite_support_single_form_element input[type="date"]:focus,
+.hive_lite_support_single_form_element input[type="datetime-local"]:focus,
+.hive_lite_support_single_form_element textarea:focus,
+.hive_lite_support_single_form_element select:focus {
+  color: var(--hive_lite_support_field_text_color_focus);
+  border: 1px solid var(--hive_lite_support_field_border_color_focus);
+  background: var(--hive_lite_support_field_bg_color_focus);
+  outline: none;
+  box-shadow: none;
+}
+
+.hive_lite_support_single_form_element select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: var(--hive_lite_support_field_bg_color)
+    url("../img/ticket_fields/select_arrow.svg") no-repeat;
+  background-size: 10px;
+  background-position-x: calc(100% - 20px);
+  background-position-y: center;
+}
+
+.hive_lite_support_single_form_element select:focus {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: var(--hive_lite_support_field_bg_color_focus)
+    url("../img/ticket_fields/select_arrow.svg") no-repeat;
+  background-size: 10px;
+  background-position-x: calc(100% - 20px);
+  background-position-y: center;
+}
+
+.hive_lite_support_single_form_element .checkbox_container,
+.hive_lite_support_single_form_element .radio_container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  row-gap: 8px;
+  column-gap: 0;
+  justify-content: left;
+}
+
+.hive_lite_support_single_form_element .checkbox_container.left,
+.hive_lite_support_single_form_element .radio_container.left {
+  justify-content: left;
+  align-items: start;
+}
+
+.hive_lite_support_single_form_element .checkbox_container.center,
+.hive_lite_support_single_form_element .radio_container.center {
+  justify-content: center;
+  align-items: center;
+}
+
+.hive_lite_support_single_form_element .checkbox_container.right,
+.hive_lite_support_single_form_element .radio_container.right {
+  justify-content: right;
+  align-items: end;
+}
+
+.hive_lite_support_single_form_element .checkbox_container.horizontal,
+.hive_lite_support_single_form_element .radio_container.horizontal {
+  flex-direction: row;
+  column-gap: 20px;
+  row-gap: 0;
+}
+
+.hive_lite_support_single_form_element .checkbox_item,
+.hive_lite_support_single_form_element .radio_item {
+  display: inline-block;
+  position: relative;
+  padding-left: 26px;
+  cursor: pointer;
+  margin: 0;
+  font-size: var(--hive_lite_support_field_text_size);
+  font-weight: 400;
+  color: var(--hive_lite_support_field_text_color);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.hive_lite_support_single_form_element.hive_lite_support_field_error_occurred
+  .checkbox_item,
+.hive_lite_support_single_form_element.hive_lite_support_field_error_occurred
+  .radio_item {
+  color: #f56c6c;
+}
+
+.hive_lite_support_single_form_element .checkbox_item input[type="checkbox"],
+.hive_lite_support_single_form_element .radio_item input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.hive_lite_support_single_form_element .checkbox_item .checkmark,
+.hive_lite_support_single_form_element .radio_item .checkmark {
+  position: absolute;
+  top: calc(50% - 16px / 2);
+  left: 0;
+  height: 16px;
+  width: 16px;
+  background: var(--hive_lite_support_field_bg_color);
+  border: 1px solid var(--hive_lite_support_field_border_color);
+  border-radius: 0;
+}
+
+.hive_lite_support_single_form_element .radio_item .checkmark {
+  border-radius: 50%;
+}
+
+.hive_lite_support_single_form_element
+  .checkbox_item
+  input[type="checkbox"]:checked
+  ~ .checkmark,
+.hive_lite_support_single_form_element
+  .radio_item
+  input[type="radio"]:checked
+  ~ .checkmark {
+  background: var(--hive_lite_support_field_radio_checked_bg_color);
+  border: 1px solid var(--hive_lite_support_field_radio_checked_bg_color);
+}
+
+.hive_lite_support_single_form_element
+  .checkbox_item
+  input[type="checkbox"]:checked
+  ~ .checkmark {
+  background: var(--hive_lite_support_field_radio_checked_bg_color)
+    url("../img/ticket_fields/checkbox_tick_icon.svg") no-repeat;
+  background-size: 10px;
+  background-position-x: center;
+  background-position-y: center;
+}
+
+.hive_lite_support_single_form_element
+  .radio_item
+  input[type="radio"]:checked
+  ~ .checkmark {
+  background: var(--hive_lite_support_field_radio_checked_bg_color)
+    url("../img/ticket_fields/radio_tick_icon.svg") no-repeat;
+  background-size: 6px;
+  background-position-x: center;
+  background-position-y: center;
+}
+
+.hive_lite_support_single_form_element .custom_btn_container {
+  display: flex;
+  gap: 7px;
+}
+
+.hive_lite_support_single_form_element .custom_btn_container button.reply {
+  cursor: pointer;
+  background: #685be7;
+  color: #ffffff;
+  border-radius: 4px;
+  border: 2px solid #685be7;
+  outline: none;
+  font-weight: 400;
+  line-height: 1.5;
+  min-width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hive_lite_support_single_form_element
+  .custom_btn_container
+  button.reply_close {
+  cursor: pointer;
+  background: #ffffff;
+  color: #685be7;
+  border-radius: 4px;
+  border: 2px solid #685be7;
+  outline: none;
+  font-weight: 400;
+  line-height: 1.5;
+  min-width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hive_lite_support_single_form_element
+  .custom_btn_container
+  button.reply
+  .submitting_loader {
+  display: inline-block;
+  border: 3px solid rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  border-top: 3px solid #ffffff;
+  width: 22px;
+  height: 22px;
+  -webkit-animation: hive_lite_support_spin_animation 2s linear infinite;
+  /* Safari */
+  animation: hive_lite_support_spin_animation 2s linear infinite;
+}
+
+.hive_lite_support_single_form_element
+  .custom_btn_container
+  button.reply_close
+  .submitting_loader {
+  display: inline-block;
+  border: 3px solid rgb(208, 207, 229);
+  border-radius: 50%;
+  border-top: 3px solid #685be7;
+  width: 22px;
+  height: 22px;
+  -webkit-animation: hive_lite_support_spin_animation 2s linear infinite;
+  /* Safari */
+  animation: hive_lite_support_spin_animation 2s linear infinite;
+}
+
+.ticket_media_upload {
+  margin-bottom: 18px;
+  border: dashed 3px #1f8feb;
+  background: #e5eaf0;
+  border-radius: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 15px;
+}
+
+.btn-extra-style {
+  height: 52px;
+  width: 173px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+svg.upload_svg {
+  height: 30px;
+  width: 30px;
+  color: #1600e9;
+}
+
+.ticket_media_upload .upload_text {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  color: #1f8feb;
+}
+
+.reply_thraed_uploaded_files {
+  padding: 0px 20px 20px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.button_file_item {
+  display: flex;
+  padding: 10px 20px;
+  background: #e4f2fd;
+  gap: 13px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+}
+
+.reply_thraed_uploaded_files a {
+  color: #1f8feb;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* Safari */
+@-webkit-keyframes hive_lite_support_spin_animation {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes hive_lite_support_spin_animation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

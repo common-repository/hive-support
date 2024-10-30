@@ -1,0 +1,269 @@
+/* Business Inbox */
+
+.hive_lite_support_settings_business_inbox,
+.hive_lite_support_settings_business_inbox_container {
+  display: none;
+}
+
+.hive_lite_support_settings_row_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  gap: 24px;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.hive_lite_support_settings_item {
+  width: calc(50% - 12px);
+}
+
+.hive_lite_support_settings_single {
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.hive_lite_support_settings_single_flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  gap: 12px;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.hive_lite_support_settings_single_title {
+  font-size: 20px;
+  font-weight: 700;
+}
+.hive_lite_support_settings_single_right_flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  gap: 10px 2px;
+}
+.hive_lite_support_settings_single_contents_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.hive_lite_support_settings_single_contents_list_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+}
+.hive_lite_support_settings_single_contents_list_item:not(:first-child) {
+  padding-left: 50px;
+}
+@media (min-width: 1400px) and (max-width: 1599.98px) {
+  .hive_lite_support_settings_single_contents_list_item:not(:first-child) {
+    padding-left: 20px;
+  }
+}
+@media only screen and (max-width: 767.98px) {
+  .hive_lite_support_settings_single_contents_list_item:not(:first-child) {
+    padding-left: 30px;
+  }
+}
+@media only screen and (max-width: 575.98px) {
+  .hive_lite_support_settings_single_contents_list_item:not(:first-child) {
+    padding-left: 20px;
+  }
+}
+.hive_lite_support_settings_single_contents_list_item:not(
+    :first-child
+  )::before {
+  position: absolute;
+  content: "";
+  height: 80%;
+  width: 2px;
+  background-color: #f3f3f3;
+  left: 0;
+  top: 50%;
+  /* IE 9 */
+  -webkit-transform: translateY(-50%);
+  /* Chrome, Safari, Opera */
+  transform: translateY(-50%);
+}
+.hive_lite_support_settings_single_contents_list_item:not(:last-child) {
+  padding-right: 50px;
+}
+@media (min-width: 1400px) and (max-width: 1599.98px) {
+  .hive_lite_support_settings_single_contents_list_item:not(:last-child) {
+    padding-right: 20px;
+  }
+}
+@media only screen and (max-width: 767.98px) {
+  .hive_lite_support_settings_single_contents_list_item:not(:last-child) {
+    padding-right: 30px;
+  }
+}
+@media only screen and (max-width: 575.98px) {
+  .hive_lite_support_settings_single_contents_list_item:not(:last-child) {
+    padding-right: 20px;
+  }
+}
+.hive_lite_support_settings_single_contents_list_span {
+  font-size: 16px;
+  font-weight: 500;
+  color: #777d86;
+}
+.hive_lite_support_settings_single_contents_list_link {
+  font-weight: 600;
+  color: #1d2635;
+  font-size: 18px;
+}
+.hive_lite_support_settings_single_contents .edit_inbox {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 5px;
+  padding: 7px 15px;
+  background-color: #685be7;
+  color: #fff;
+  border-radius: 5px;
+}
+
+/* Add Business inbox */
+.hive_lite_support_settings_add_business_inbox {
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.hive_lite_support_settings_add_business_inbox_flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  gap: 12px;
+}
+.hive_lite_support_settings_add_business_inbox_contents_title {
+  font-size: 20px;
+  font-weight: 700;
+  margin: -3px 0 0;
+}
+.hive_lite_support_settings_add_business_inbox_contents_para {
+  display: block;
+  font-size: 15px;
+  font-weight: 500;
+  color: #777d86;
+  line-height: 24px;
+  margin-top: 10px;
+}
+
+.hive_lite_support_settings_add_business_inbox_icon .add_append_business {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #685be7;
+  color: #fff;
+  font-size: 28px;
+  cursor: pointer;
+}
+.hive_lite_support_settings_add_business_inbox_icon .add_append_business img {
+  max-width: 30px;
+}
+
+.hive_lite_support_settings_single_contents_list_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.hive_lite_support_settings_single_contents_list_item:not(:first-child) {
+  /*padding-top: 25px;*/
+}
+.hive_lite_support_settings_single_contents_list_item:not(:last-child) {
+  /*padding-bottom: 25px;
+    border-bottom: 1px solid #f3f3f3;*/
+}
+
+/* Activities Css */
+.hive_lite_support_settings_item_web_btn {
+  display: inline-block;
+  padding: 7px 15px;
+  border-radius: 5px;
+  background-color: rgba(104, 91, 231, 0.1);
+  color: #685be7;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  font-weight: 500;
+}
+@media only screen and (max-width: 375px) {
+  .hive_lite_support_settings_item_web_btn {
+    padding: 5px 10px;
+  }
+}
+.hive_lite_support_settings_item_web_btn:hover {
+  background-color: #685be7;
+  color: #fff;
+}
+
+.hive_lite_support_settings_elipsis_icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.hive_lite_support_settings_elipsis_icon img {
+  max-width: 5px;
+}

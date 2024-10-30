@@ -1,0 +1,310 @@
+#hive_lite_support_reports {
+  display: none;
+}
+.hive_lite_support_report_header {
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.hive_lite_support_single_reports {
+}
+.hive_lite_support_single_reports_header {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #f3f3f3;
+}
+.hive_lite_support_single_reports_flex {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.hive_lite_support_report_dashboard_title {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 600;
+}
+.hive_lite_support_report_dashboard_title h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #1d2635;
+  font-family: "Outfit", sans-serif;
+  margin: 0;
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+.hive_lite_support_report_status_dropdown {
+  display: block;
+  position: relative;
+}
+.hive_lite_support_report_status_dropdown_group {
+}
+.hive_lite_support_report_status_dropdown_toggler {
+}
+.hive_lite_support_single_reports_header
+  .hive_lite_support_report_add_dropdown_text {
+  border: 1px solid #f3f3f3;
+  padding: 5px 30px 5px 20px;
+  border-radius: 5px;
+}
+.hive_lite_support_report_add_dropdown_text {
+  position: relative;
+  z-index: 1;
+  color: #777d86;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  font-size: 15px;
+  padding: 7px 10px;
+  background: none;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  padding-right: 20px;
+  border: 0;
+}
+.hive_lite_support_single_reports_header button,
+input,
+select,
+textarea {
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+.hive_lite_support_report_status_dropdown_menu {
+  position: absolute;
+  z-index: 1000;
+  display: none;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 8px 0;
+  margin: 0;
+  font-size: 16px;
+  color: var(--light-color);
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 0;
+  -webkit-box-shadow: 0 0 10px rgba(221, 221, 221, 0.7);
+  box-shadow: 0 0 10px rgba(221, 221, 221, 0.7);
+  border-radius: 0.25rem;
+  max-height: 300px;
+  overflow-y: auto;
+}
+.hive_lite_support_report_status_dropdown_menu_search {
+}
+.hive_lite_support_report_status_dropdown_menu_search_input {
+}
+.hive_lite_support_report_status_dropdown_menu_list {
+  border: 0;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  margin-bottom: 6px;
+}
+.hive_lite_support_report_status_dropdown_menu_link {
+  display: block;
+  width: 100%;
+  padding: 0.25rem 1rem;
+  clear: both;
+  font-weight: 400;
+  color: var(--paragraph-color);
+  text-align: inherit;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+.hive_lite_support_report_bar_chart_wrapper {
+  margin-top: 10px;
+}
+#hive_lite_support_report_bar_chart {
+  display: block;
+  box-sizing: border-box;
+  height: 202px;
+  width: 405px;
+}
+
+.hive_lite_support_reports_performance {
+}
+.hive_lite_support_reports_row_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  gap: 24px;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+/* Custom Col  */
+.hive_lite_support_reports_col_10 {
+  width: calc(83.33% - 4px);
+}
+@media only screen and (max-width: 480px) {
+  .hive_lite_support_reports_col_10 {
+    width: 100%;
+  }
+}
+
+.hive_lite_support_reports_col_9 {
+  width: calc(75% - 6px);
+}
+@media only screen and (max-width: 480px) {
+  .hive_lite_support_reports_col_9 {
+    width: 100%;
+  }
+}
+
+.hive_lite_support_reports_col_8 {
+  width: calc(66.67% - 8px);
+}
+@media only screen and (max-width: 480px) {
+  .hive_lite_support_reports_col_8 {
+    width: 100%;
+  }
+}
+
+.hive_lite_support_reports_col_7 {
+  width: calc(58.33% - 12px);
+}
+@media only screen and (max-width: 480px) {
+  .hive_lite_support_reports_col_7 {
+    width: 100%;
+  }
+}
+
+.hive_lite_support_reports_col_6 {
+  width: calc(50% - 12px);
+}
+@media only screen and (max-width: 480px) {
+  .hive_lite_support_reports_col_6 {
+    width: 100%;
+  }
+}
+
+.hive_lite_support_reports_col_5 {
+  width: calc(41.67% - 14px);
+}
+@media only screen and (max-width: 480px) {
+  .hive_lite_support_reports_col_5 {
+    width: 100%;
+  }
+}
+
+.hive_lite_support_reports_col_4 {
+  width: calc(33.33% - 16px);
+}
+@media only screen and (max-width: 480px) {
+  .hive_lite_support_reports_col_4 {
+    width: 100%;
+  }
+}
+
+.hive_lite_support_reports_col_3 {
+  width: calc(25% - 18px);
+}
+@media only screen and (max-width: 480px) {
+  .hive_lite_support_reports_col_3 {
+    width: 100%;
+  }
+}
+
+.hive_lite_support_reports_col_2 {
+  width: calc(16.67% - 20.1px);
+}
+@media only screen and (max-width: 480px) {
+  .hive_lite_support_reports_col_2 {
+    width: 100%;
+  }
+}
+
+.hive_lite_support_reports_single_circleProgress {
+  margin-top: 25px;
+}
+
+.hive_lite_support_reports_single_circleProgress_box {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  margin: auto;
+}
+.hive_lite_support_reports_single_circleProgress_box_contents {
+  text-align: center;
+  padding: 25px 0;
+}
+.hive_lite_support_reports_single_circleProgress_box_thumb {
+  position: relative;
+  z-index: 2;
+  display: inline-block;
+}
+.hive_lite_support_reports_single_circleProgress_box_thumb img {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+.hive_lite_support_reports_single_circleProgress_box_thumb_name {
+  position: relative;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1;
+  color: #fff;
+  background-color: #685be7;
+  border-radius: 10px;
+  padding: 5px 10px;
+  border: 1px solid #fff;
+  margin-top: -10px !important;
+}
+.hive_lite_support_reports_single_circleProgress_box_contents h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  display: block;
+  color: #1d2635;
+  font-family: "Outfit", sans-serif;
+  margin: 0;
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+.hive_lite_support_reports_single_circleProgress_box_para {
+  font-size: 18px;
+  font-weight: 500;
+  display: block;
+  text-align: center;
+  color: #000;
+  margin-top: 20px;
+}
+
+.hive_lite_support_reports_single_circleProgress_box canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: auto;
+}
+.hive_lite_support_reports_single_circleProgress_box
+  .hive_lite_support_reports_circleProgress {
+  text-align: center;
+  font-size: 36px;
+  color: #1d2635;
+  margin-top: 10px;
+}

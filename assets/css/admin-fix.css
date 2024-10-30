@@ -1,0 +1,1253 @@
+.mt--20 {
+  margin-top: 20px;
+}
+
+.mt--40 {
+  margin-top: 40px;
+}
+
+.d-block {
+  display: block !important;
+}
+.justify--center {
+  justify-content: center !important;
+}
+:root {
+  --hs-primary-color: #151a43;
+  --hs-hover-color: #fe7747;
+}
+
+.hive_lite_support_thread_section_left_item .custom_ticket_fields {
+  background: url("../img/thread/status_wave.svg") no-repeat !important;
+  background-size: 17px !important;
+  background-position-x: 10px !important;
+  background-position-y: center !important;
+}
+
+.additional-information-header {
+  font-size: 20px;
+  font-weight: 500;
+  border-bottom: 3px solid #f3f3f3;
+}
+
+@media only screen and (min-width: 1350px) {
+  .hive_lite_support_tickets_table_user .info-box {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.hive_lite_support_tickets_table_user .info-box .info-user-img {
+  min-width: 70px;
+}
+
+.hive_lite_support_agents_update_popup .hive_lite_support_agents_update {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hive_lite_support_agents_delete_popup {
+  width: 500px !important;
+  max-width: 90% !important;
+  overflow: visible !important;
+}
+
+.hive_lite_support___popup_wrapper {
+  position: fixed;
+  z-index: 50;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.toplevel_page_hive-support-dashboard #adminmenuwrap {
+  z-index: 40;
+}
+
+.hive_lite_support___popup_wrapper .hive_lite_support_popup_overlay {
+  background: #252f3c;
+  opacity: 0.5;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+}
+
+.hive_lite_support___popup_wrapper .hive_lite_support___popup_box {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 95%;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+  max-height: 90vh;
+  overflow: scroll;
+}
+
+.hive_lite_support_automation_popup .hive_lite_support___popup_box {
+  background: #e7e7e7;
+  padding: 25px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.hive_lite_support_agents_delete_popup_title {
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 15px !important;
+  font-weight: 600;
+  color: #b45656;
+}
+
+.hive_lite_support_agents_delete_actions {
+  display: flex;
+  justify-content: center;
+}
+
+.hive_lite_support_agents_delete_actions button {
+  margin: 0 !important;
+}
+
+.hive_lite_support_agents_delete_actions img {
+  display: none !important;
+  margin-right: 5px;
+  line-height: 1 !important;
+}
+
+.hive_lite_support_agents_delete_actions span {
+  display: inline-block !important;
+  line-height: 1 !important;
+}
+
+.automation-list .hive_lite_support_agents_table_user {
+  min-width: unset !important;
+}
+
+.automation-list .automation-list-id-info,
+.automation-list .automation-list-id-head {
+  max-width: 70px !important;
+  min-width: 70px !important;
+  width: 70px !important;
+}
+
+.automation-list
+  .hive_lite_support_agents_table_user
+  .hive_lite_support_agents_table_user_info
+  h5 {
+  width: unset !important;
+}
+
+.automation-list .hive_lite_support_agents_table_data h4 {
+  width: unset !important;
+}
+
+.automation-list .automation-list-action-head,
+.automation-list .automation-list-action-info {
+  max-width: 35px !important;
+  min-width: 35px !important;
+}
+
+.automation-single-details-box
+  .hive_lite_support_automation_trigger_input_container {
+  width: 250px !important;
+}
+
+.hive_lite_support_condition_btn {
+  background-color: #b45656;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+
+.hive_lite_support_automation_trigger_dropdown_container {
+  margin-top: 0px;
+}
+
+.hive_lite_support_action_item {
+  width: 100% !important;
+}
+
+.automation--modal .hive_lite_support_agents_add_actions button {
+  width: 280px;
+}
+
+.hive_lite_support_settings_item {
+  width: 100% !important;
+}
+
+.hive_lite_support_settings_business_inbox,
+.hive_lite_support_settings_business_inbox_container {
+  display: block !important;
+}
+
+.hs-rotate--45 {
+  transform: rotate(45deg);
+}
+
+.hs-rotate--90 {
+  transform: rotate(90deg);
+}
+
+.hs-rotate--180 {
+  transform: rotate(180deg);
+}
+
+.hs-rotate--270 {
+  transform: rotate(270deg);
+}
+
+.hs-outline---btn {
+  width: 200px;
+  margin: 0 0 0 auto;
+  padding: 10px 15px;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #685be7;
+  color: #ffffff;
+  border-radius: 5px;
+  font-size: 20px;
+  transition: 0.3s;
+  border: 2px solid transparent;
+}
+
+.hs-outline---btn:hover {
+  border: 2px solid #685be7;
+  background: transparent;
+  color: #6e32c9;
+}
+
+.hs-solid---btn {
+  background: #685be7;
+  color: #fff;
+  border: 2px solid #685be7;
+  font-size: 16px;
+  font-weight: 500;
+  display: inline-block;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  line-height: 34px;
+  padding: 7px 35px;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  white-space: nowrap;
+}
+
+.ml--20 {
+  margin-left: 20px;
+}
+
+.mb--20 {
+  margin-bottom: 20px;
+}
+
+.p-0 {
+  padding-top: 0;
+}
+
+.mt--0 {
+  margin-top: 0 !important;
+}
+
+.delete__binbox {
+  background-color: #b60000 !important;
+}
+
+.int-header--single-wrap {
+  margin-bottom: 20px !important;
+  padding: 0 !important;
+}
+
+.current.toplevel_page_hive-support-dashboard
+  .wp-menu-image.dashicons-before
+  img,
+.toplevel_page_hive-support-dashboard .wp-menu-image.dashicons-before img {
+  width: 18px;
+  display: inline-block;
+  line-height: 0;
+  height: auto;
+  padding: 0 !important;
+  padding-top: 5px !important;
+  opacity: 1 !important;
+}
+
+a.wp-not-current-submenu.menu-top.toplevel_page_hive-support-dashboard
+  .wp-menu-image.dashicons-before
+  img,
+.wp-not-current-submenu.menu-top.toplevel_page_hive-support-dashboard
+  .wp-menu-image.dashicons-before
+  img,
+.wp-not-current-submenutoplevel_page_hive-support-dashboard
+  .wp-menu-image.dashicons-before
+  img {
+  width: 18px !important;
+  display: inline-block !important;
+  line-height: 0 !important;
+  height: auto !important;
+  padding: 0 !important;
+  padding-top: 5px !important;
+  opacity: 1 !important;
+}
+
+/* Pagination Styles */
+.hs--pagination {
+  margin-top: 20px;
+  background: transparent !important;
+}
+
+.hs-pagination-box {
+  font-size: 50px;
+  line-height: 0.2;
+  color: #685be7;
+}
+
+.hs--pagination button {
+  background: transparent !important;
+}
+
+.hs--pagination button.reply_close {
+  border: none !important;
+  padding: 2px 15px !important;
+}
+
+.hs--pagination button.reply_close.reply {
+  padding: 2px 15px !important;
+  background: #685be7 !important;
+  color: #fff !important;
+}
+
+.hs--pagination button:hover {
+  background: #685be7 !important;
+}
+
+.hs--pagination button svg {
+  width: 12px;
+  color: #685be7;
+  fill: #685be7;
+}
+
+.hs--pagination button:hover svg path,
+.hs--pagination button:hover svg {
+  color: #fff !important;
+  fill: #fff !important;
+}
+
+#tinymce.mce-content-body,
+.mce-edit-area #tinymce {
+  background: red !important;
+  color: green !important;
+}
+
+.pb--0 {
+  padding-bottom: 0 !important;
+}
+
+.hs--copyshortcode {
+  flex-wrap: wrap;
+}
+
+.hs--copyshortcode .copyshortcode-item {
+  max-width: 30%;
+  margin-right: 25px;
+  margin-bottom: 25px;
+}
+
+.hs-shortcode-box {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 240px;
+}
+
+.shortcode-info {
+  width: 100%;
+}
+
+.hs-binbox-shortcode {
+  font-size: 14px;
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+.hs-shortcode-icon {
+  max-width: 30px;
+  height: 30px;
+  border-radius: 3px;
+  padding: 3px;
+}
+
+.hive_lite_support_settings_section_left
+  .hive_lite_support_settings_section_left_items {
+  min-width: 250px !important;
+}
+
+.chat_wrapper .chat_wrapper__details__footer {
+  padding: 25px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.chat_wrapper .chat_wrapper__details__header {
+  border-radius: 10px;
+}
+
+.hs_chat_person_name {
+  background: transparent !important;
+  font-size: 12px;
+  padding: 0;
+  display: block;
+  color: #101828;
+}
+
+/* #chatContact__chat.chatContact__contents__inner__chat{
+    max-height: 350px !important;
+    display: flex !important;
+    flex-flow: wrap !important;
+}
+#chatContact__chat.chatContact__contents__inner__chat .chatContact__contents__inner__chat_box{
+    max-height: 100% !important;
+    overflow-y: scroll !important; 
+    display: flex !important;
+    flex-wrap: wrap !important;
+    flex: 1 1 100%;
+} */
+/* .chat_wrapper__details__inner {
+    flex: 1;
+    max-height: calc(100vh - 0px);
+    min-height: 220px;
+    overflow-y: auto;
+    scrollbar-color: var(--body-color) var(--border-color);
+    scrollbar-width: thin;
+    scrollbar-width: thin;
+    padding: 20px;
+    background-color: var(--white-bg);
+    box-shadow: inset 0px -5px 10px 0px rgba(var(--main-color-one-rgb), 0.1);
+} */
+
+.chat_wrapper__details__inner_box {
+  display: flex;
+}
+
+.chat_wrapper__details__inner {
+  /* max-height: 350px !important; */
+  max-height: calc(100vh - 0px);
+  display: flex !important;
+  flex-flow: wrap !important;
+  /* overflow-y: unset !important; */
+}
+
+.chat_wrapper__details__inner_wrapper {
+  max-height: 100% !important;
+  /* overflow-y: scroll !important;  */
+  display: flex !important;
+  flex-wrap: wrap !important;
+  /* flex: 1 1 100%; */
+  scrollbar-width: thin;
+}
+
+.chat_wrapper__details__inner__chat {
+  width: 100% !important;
+}
+
+.hs-message-count-wrapper {
+  display: inline-block;
+  background-color: #ff4c4c;
+  width: 20px;
+  height: 20px;
+  width: 15px;
+  height: 15px;
+  line-height: 1;
+  font-size: 14px;
+  font-weight: 700;
+  padding-top: 4px;
+  border-radius: 10px;
+  color: #fff;
+  position: absolute;
+  top: 5px;
+  right: 14px;
+  top: 12px;
+  right: 20px;
+}
+
+.hive_lite_support_sidebar {
+  background: #151a43 !important;
+  color: #fff !important;
+  overflow-y: scroll !important;
+  width: 260px !important;
+}
+
+.hive_lite_support_sidebar a {
+  color: #fff !important;
+}
+
+.hs--nav-svg {
+  margin-left: auto;
+}
+
+.hs--nav-svg svg {
+  width: 14px;
+  opacity: 0.8;
+}
+
+.hs-has--submenu {
+  flex-wrap: wrap;
+}
+
+.hs-has--submenu .hs-nav--sub {
+  padding-left: 35px;
+  display: none;
+}
+.hs-has--submenu.active .hs-nav--sub {
+  display: block;
+}
+.hs-nav--sub li:first-child {
+  margin-top: 5px;
+}
+.hs-has--submenu .hs-nav-sub-item {
+  padding-bottom: 10px !important;
+  padding-top: 10px !important;
+  margin-bottom: 0 !important;
+}
+
+.hs-has--submenu .hs-nav-sub-item:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 6px;
+  height: 6px;
+  background-color: #444c87;
+  transform: translateY(-50%);
+  border-radius: 50%;
+}
+
+.hs-has--submenu .hs-nav--sub .hs-nav-sub-item {
+}
+
+.hs-has--submenu .hs-nav--sub .hs-nav-sub-item a {
+  font-size: 14px;
+  width: 100%;
+  text-align: left;
+}
+
+.hs-chat-widget--settings .single-input {
+  margin-top: 0 !important;
+}
+
+.hs-chat-widget--settings
+  .hive_lite_support_settings_new_business_inbox_trigger_contents {
+  border: 0px !important;
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+.hs-chat-gpt-training-type {
+  margin-bottom: 40px;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 20px;
+}
+
+/* .hive_lite_support_sidebar li a{
+    color: #d7d7d7 !important;
+} */
+
+.hive_lite_support_sidebar li.active {
+  background-color: #363d76 !important;
+}
+
+.hive_lite_support_sidebar li:hover {
+  background-color: #363d76 !important;
+}
+
+.hive_lite_support_sidebar li.hs-has--submenu.active ul,
+.hive_lite_support_sidebar li.hs-has--submenu:hover ul {
+  background-color: #151a43 !important;
+}
+
+.hs-has--submenu {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.hs-has--submenu .logo {
+  margin-left: 30px !important;
+}
+
+.hs-has--submenu .hs--nav-svg {
+  margin-right: 30px !important;
+}
+
+.hs-has--submenu.active .hs--nav-svg svg {
+  transform: rotate(270deg) !important;
+}
+
+.hs-nav--sub {
+  width: 100% !important;
+  padding-left: 0 !important;
+}
+
+.hs-has--submenu .hs-nav--sub .hs-nav-sub-item {
+  /* padding-left: 92px !important; */
+}
+.hs-has--submenu .hs-nav--sub .hs-nav-sub-item {
+  padding: 0;
+}
+.hs-has--submenu .hs-nav--sub .hs-nav-sub-item a {
+  padding-left: 92px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.hs-has--submenu .hs-nav-sub-item:before {
+  left: 65px !important;
+}
+
+.hive_lite_support_sidebar ul li .logo {
+  background-color: #ffffff !important;
+}
+
+.hs-nav--sub.active ul li:first-child {
+  margin-top: 5px !important;
+}
+
+.hs-nav-sub-item.status.active:before {
+  background-color: #fff !important;
+}
+
+.hive_lite_support_sidebar ul li a {
+  font-size: 14px !important;
+  font-weight: 600 !important;
+}
+
+.hive_lite_support_sidebar ul li.livechat .logo {
+  -webkit-mask: url(../img/sidebar/chat.svg) no-repeat center !important;
+  mask: url(../img/sidebar/chat.svg) no-repeat center !important;
+}
+
+.hive_lite_support_sidebar ul li.livechat .logo {
+  width: 22px !important;
+  height: 20px !important;
+  margin-left: 33px !important;
+}
+
+.hive_lite_support_sidebar ul li.chatwidget .logo {
+  -webkit-mask: url(../img/sidebar/chat-widget.svg) no-repeat center !important;
+  mask: url(../img/sidebar/chat-widget.svg) no-repeat center !important;
+}
+
+.hive_lite_support_sidebar ul li.ai-training .logo {
+  -webkit-mask: url(../img/sidebar/chatbot.svg) no-repeat center !important;
+  mask: url(../img/sidebar/chatbot.svg) no-repeat center !important;
+}
+
+.hs-has--submenu .hs-nav--sub .hs-nav-sub-item a {
+  font-size: 12px !important;
+}
+
+.hive_lite_support_tickets_summary_item p {
+  font-size: 16px !important;
+}
+
+.hive_lite_support_ticket_filter_items_label {
+  font-size: 16px !important;
+  font-weight: 800 !important;
+  color: #121212 !important;
+}
+
+.hive_lite_support_ticket_filter_container {
+  margin-bottom: 25px !important;
+  padding: 30px 20px;
+}
+
+.wp-core-ui select {
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  border: 1px solid #1212124f;
+}
+
+.wp-core-ui select:focus {
+  border-color: #151a43;
+  color: #151a43;
+  box-shadow: 0 0 0 1px #151a43;
+  box-shadow: none !important;
+}
+
+.hive_lite_support_ticket_filter_btn_wrapper
+  .hive_lite_support_ticket_filter_btn {
+  font-weight: 600 !important;
+  padding: 0px 20px !important;
+  background-color: #151a43 !important;
+}
+
+.hive_lite_support_ticket_filter_btn_wrapper
+  .hive_lite_support_ticket_filter_btn:hover {
+  background-color: #fe7747 !important;
+  border-color: #fe7747;
+  color: #fff !important;
+}
+
+.hive_lite_support_tickets_container .info-user-data {
+  font-size: 13px !important;
+  line-height: 18px !important;
+}
+
+.hive_lite_support_tickets_container .info-user-data h5 {
+  font-size: 14px !important;
+  margin-bottom: 5px !important;
+}
+
+.hive_lite_support_tickets_table_user span.ticket_user {
+  font-size: 13px !important;
+  font-weight: 600 !important;
+}
+
+.hive_lite_support_tickets_table_data span.ticket_status,
+.hive_lite_support_tickets_table_staff h5,
+.hive_lite_support_tickets_table_data span.ticket_updated {
+  font-size: 14px !important;
+  color: #444444 !important;
+  font-weight: 500 !important;
+}
+
+.hive_lite_support_tickets_table_data span.ticket_created {
+  font-size: 13px !important;
+  color: #444444 !important;
+  font-weight: 500 !important;
+}
+
+.hive_lite_support_tickets_container table tr td {
+  padding: 10px 15px !important;
+}
+
+.hive_lite_support_response_single_heading .title {
+  font-size: 16px !important;
+  padding: 15px 20px !important;
+}
+
+.hive_lite_support_response_single {
+  border-radius: 6px !important;
+}
+
+.hive_lite_support_response_single_content {
+  padding: 18px !important;
+}
+
+.hive_lite_support_response_single_content_para {
+  font-size: 14px !important;
+  color: #444444 !important;
+  line-height: 22px !important;
+}
+
+.hive_lite_support_response_single_heading .title::after {
+  width: 14px !important;
+}
+
+.hive_lite_support_response_single_elipsis_icon img {
+  height: 14px !important;
+  width: auto !important;
+}
+
+.hive_lite_support_automation_header_single_contents {
+  font-size: 18px !important;
+}
+
+.hive_lite_support_activities_item img {
+  width: 60px !important;
+  height: 60px !important;
+}
+
+.hive_lite_support_activities_item_details .user_name {
+  font-size: 14px !important;
+}
+
+.hive_lite_support_activities_item_details .user_action {
+  font-size: 14px !important;
+}
+
+.hive_lite_support_activities_item_details .break {
+  height: 7px !important;
+}
+
+.hive_lite_support_activities_item_details .user_title {
+  font-size: 15px !important;
+  background: #151a43 !important;
+}
+
+.hive_lite_support_activities_item_details .time {
+  font-size: 13px !important;
+}
+
+button.title.hs-solid---btn {
+  background-color: #151a43;
+  font-size: 16px;
+  font-weight: 800px !important;
+  padding: 8px 25px;
+  border: none;
+}
+
+button.title.hs-solid---btn:hover {
+  background-color: #fe7747;
+  border-color: #fe7747;
+}
+
+.hive_lite_support_settings_email_notification_body_item_header h4 {
+  color: #121212 !important;
+  font-size: 16px !important;
+  font-weight: 800px !important;
+  padding-top: 20px !important;
+}
+
+.hive_lite_support_settings_email_notification_body_item_header
+  .toggle_switch
+  input:checked
+  + .slider {
+  background-color: #151a43 !important;
+}
+
+.hive_lite_support_settings_section_left_item.active {
+  color: #fff;
+  background-color: #151a43 !important;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  padding: 10px 20px !important;
+}
+
+.hive_lite_support_settings_section_left_item {
+  font-size: 16px !important;
+  font-weight: 600 !important;
+}
+
+.custom-form .single-input .label-title {
+  padding-top: 30px !important;
+}
+
+button.hive_lite_support_add_template_btn {
+  background-color: #151a43 !important;
+  border: none;
+}
+
+button.hive_lite_support_add_template_btn:hover {
+  background-color: #fe7747 !important;
+  color: #fff;
+  border: none;
+}
+
+button.button-search {
+  background-color: #151a43 !important;
+}
+
+button.button-search:hover {
+  background-color: #fe7747 !important;
+}
+
+.hive_lite_support_agents_add_form_single_field input[type="text"],
+.hive_lite_support_agents_add_form_single_field input[type="tel"],
+.hive_lite_support_agents_add_form_single_field input[type="email"],
+.hive_lite_support_agents_add_form_single_field input[type="url"],
+.hive_lite_support_agents_add_form_single_field input[type="password"],
+.hive_lite_support_agents_add_form_single_field input[type="number"],
+.hive_lite_support_agents_add_form_single_field input[type="time"],
+.hive_lite_support_agents_add_form_single_field input[type="date"],
+.hive_lite_support_agents_add_form_single_field input[type="datetime-local"],
+.hive_lite_support_agents_add_form_single_field textarea,
+.hive_lite_support_agents_add_form_single_field select {
+  font-size: 13px !important;
+  font-weight: 400 !important;
+}
+
+.hive_lite_support_agents_add h3 {
+  color: #121212 !important;
+}
+
+.hive_lite_support_agents_add p {
+  color: #444444 !important;
+}
+
+.hive_lite_support_agents_add_actions button {
+  background-color: #151a43 !important;
+  border: none !important;
+}
+
+.hive_lite_support_agents_add_actions button:hover {
+  background-color: #fe7747 !important;
+  color: #ffff !important;
+  border: none !important;
+}
+
+.hive_lite_support_agents_add_form_single_field
+  .checkbox_item
+  input[type="checkbox"]:checked
+  ~ .checkmark {
+  background: #151a43 url("../img/agents/checkbox_tick_icon.svg") no-repeat !important;
+}
+
+.hive_lite_support_agents_container table tr th {
+  font-size: 16px !important;
+  font-weight: 800 !important;
+  color: #121212 !important;
+}
+
+.hive_lite_support_agents_table_user
+  .hive_lite_support_agents_table_user_info
+  h5 {
+  font-size: 14px !important;
+  margin-bottom: 5px !important;
+  color: #1d2635 !important;
+  font-weight: 600 !important;
+}
+
+.hive_lite_support_agents_table_user
+  .hive_lite_support_agents_table_user_info
+  p {
+  font-size: 13px !important;
+  line-height: 18px !important;
+  color: #444444 !important;
+  margin: 5px 0 0 0;
+}
+
+.hive_lite_support_agents_table_data span {
+  font-size: 14px !important;
+  color: #444444 !important;
+  line-height: 22px;
+}
+
+.hive_lite_support_agents_table_data h4 {
+  font-size: 20px !important;
+  color: #1d2635;
+}
+
+.hive_lite_support_agents_table_data h4 {
+  font-size: 14px !important;
+  color: #444444 !important;
+  font-weight: 600 !important;
+}
+
+.hive_lite_support_agents_table_action button.hive_lite_support_edit {
+  background: #151a43 url(../img/agents/action_edit_icon.svg) no-repeat !important;
+  background-size: 17px !important;
+  background-position-x: center !important;
+  background-position-y: center !important;
+}
+
+.hive_lite_support_agents_table_action button.hive_lite_support_edit:hover {
+  background: #242c69 url(../img/agents/action_edit_icon.svg) no-repeat !important;
+  background-size: 17px !important;
+  background-position-x: center !important;
+  background-position-y: center !important;
+}
+
+.hive_lite_support_agents_table_action button.hive_lite_support_delete {
+  background: #d41727 url(../img/agents/action_delete_icon.svg) no-repeat !important;
+  background-size: 17px !important;
+  background-position-x: center !important;
+  background-position-y: center !important;
+}
+
+.hive_lite_support_agents_table_action button.hive_lite_support_delete:hover {
+  background: #e23442ec url(../img/agents/action_delete_icon.svg) no-repeat !important;
+  background-size: 17px !important;
+  background-position-x: center !important;
+  background-position-y: center !important;
+}
+
+.hive_lite_support_automation_header_single
+  .hive_lite_support_automation_add_new_rules_btn {
+  background-color: #151a43 !important;
+  color: #fff !important;
+}
+
+.hive_lite_support_automation_header_single
+  .hive_lite_support_automation_add_new_rules_btn:hover {
+  background-color: #fe7747 !important;
+  color: #ffffff !important;
+}
+
+.hive_lite_support_settings_add_business_inbox_icon .add_append_business {
+  background-color: #151a43 !important;
+}
+
+.hive_lite_support_settings_add_business_inbox_icon .add_append_business:hover {
+  background-color: #fe7747 !important;
+}
+
+.hive_lite_support_settings_single_contents .edit_inbox {
+  background-color: #151a43 !important;
+}
+
+.hive_lite_support_settings_single_contents .edit_inbox:hover {
+  background-color: #242c69 !important;
+}
+
+.hive_lite_support_settings_single_contents .delete__binbox {
+  background-color: #d41727 !important;
+}
+
+.hive_lite_support_settings_single_contents .delete__binbox:hover {
+  background-color: #e23442 !important;
+}
+
+.hs-shortcode-icon {
+  background: #151a43 !important;
+}
+
+.hive_lite_support_settings_item_web_btn {
+  background-color: #151a43 !important;
+  color: #fff !important;
+}
+
+.hive_lite_support_settings_item_web_btn:hover {
+  background-color: #242c69 !important;
+  color: #ffffff !important;
+}
+
+.hive_lite_support_ticket_fields_section_header h3 {
+  font-size: 16px !important;
+  line-height: 24px !important;
+}
+
+.hive_lite_support_ticket_fields_section_header p {
+  color: #444444 !important;
+  font-size: 14px !important;
+}
+
+.hive_lite_support_ticket_fields_section_header button {
+  background-color: #151a43 !important;
+}
+
+.hive_lite_support_ticket_fields_section_header button:hover {
+  background-color: #242c69 !important;
+}
+
+.hive_lite_support_settings_ticket_fields_dropped_form_item
+  .hive_lite_support_settings_ticket_fields_dropped_form_item_header
+  h4 {
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  color: #121212 !important;
+}
+
+.hive_lite_support_settings_ticket_fields_dropped_form_items_empty {
+  color: #151a43 !important;
+}
+
+.hive_lite_support_settings_ticket_fields_droppable_form_item
+  .hive_lite_support_settings_ticket_fields_droppable_form_item_details
+  h4 {
+  font-size: 16px !important;
+  color: #151a43 !important;
+}
+
+.hive_lite_support_settings_ticket_fields_droppable_form_item
+  .hive_lite_support_settings_ticket_fields_droppable_form_item_details
+  p {
+  color: #444444 !important;
+  margin: 0px 0 !important;
+  font-size: 14px !important;
+}
+
+.dark\:bg-gray-700 {
+  --tw-bg-opacity: 1;
+  background-color: #151a43 !important;
+}
+
+.peer:checked ~ .peer-checked\:bg-\[\#685be7\] {
+  --tw-bg-opacity: 1;
+  background-color: #fe7747 !important;
+}
+
+.hive_lite_support_settings_email_notification_body_header h3 {
+  font-size: 16px !important;
+  color: #121212 !important;
+}
+
+.hive_lite_support_settings_email_notification_body_header p {
+  color: #444444 !important;
+  margin: 0px 0 !important;
+  font-size: 14px !important;
+}
+
+.hive_lite_support_settings_email_notification_body_header button {
+  background-color: #151a43 !important;
+}
+
+.hive_lite_support_settings_email_notification_body_header button:hover {
+  background-color: #fe7747 !important;
+}
+
+hive_lite_support_body .not-active button {
+  --tw-bg-opacity: 1;
+  background-color: #151a43 !important;
+}
+
+.hive_lite_support_thread_header h3 {
+  font-size: 20px !important;
+  color: #121212 !important;
+}
+
+.hive_lite_support_thread_section_center_thread_form button.reply {
+  background: #151a43 !important;
+  border: none !important;
+}
+
+.hive_lite_support_thread_section_center_thread_form button.reply:hover {
+  background: #242c69 !important;
+  border: none !important;
+}
+
+.hive_lite_support_thread_section_center_thread_item_header
+  .hive_lite_support_thread_section_center_thread_item_header_details
+  span.response_by {
+  background: #151a43 !important;
+}
+
+.hive_lite_support_thread_section_user_profile
+  .hive_lite_support_thread_section_user_previous_ticket_item
+  a {
+  color: #121212 !important;
+}
+
+.hive_lite_support_thread_section_center_thread_form button.reply_close {
+  cursor: pointer;
+  background: #ffffff;
+  color: #121212 !important;
+  border: 2px solid #151a43 !important;
+}
+
+.hive_lite_support_thread_section_center_thread_form button.reply_close:hover {
+  cursor: pointer;
+  background: #d41727 !important;
+  color: #ffffff !important;
+  border: 2px solid #d41727 !important;
+}
+
+.hive_lite_support_thread_section_left_item label {
+  color: #121212 !important;
+  font-size: 18px !important;
+  font-weight: 600;
+}
+.mce-branding {
+  display: none !important;
+}
+.hs-uploaded--image-wrapper {
+  display: flex;
+}
+.hs-uploaded--image-wrapper img {
+  max-width: 70px;
+  margin-right: 5px;
+}
+.agent-img-wrap {
+  display: flex;
+  gap: 4px;
+}
+.agent-img-wrap img {
+  width: 45px;
+  border-radius: 50%;
+  border: 1px solid #eee;
+}
+
+.chat_wrapper__details__inner__chat__contents__para {
+  background-color: var(--hs-primary-color);
+}
+.cmn_btn {
+  background-color: var(--hs-primary-color);
+}
+.cmn_btn:hover {
+  background-color: var(--hs-hover-color);
+  color: #fff;
+}
+.chat_wrapper__details__inner_wrapper {
+  width: 100% !important;
+}
+.hive_lite_support_thread_section_user_profile_order a {
+  color: var(--hs-primary-color) !important;
+}
+
+.media-upload-preview {
+  margin-bottom: 30px;
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+.media-upload-preview img {
+  max-width: 178px;
+  height: auto;
+}
+.ticket_media_upload {
+  cursor: pointer;
+}
+.hs-ticket-content-title {
+  font-weight: bold !important;
+  color: black !important;
+  padding-bottom: 10px !important;
+}
+.hs-ticket-content-value {
+  padding-bottom: 10px;
+}
+.api-link {
+  font-size: 13px;
+  color: #685be7;
+}
+
+.admin-pro-promo-banner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.admin-pro-promo-banner img {
+  max-width: 350px;
+  height: auto;
+}
+.hive_lite_support_settings_section_right {
+  position: relative;
+}
+.pro-badge {
+  color: #ff0000;
+  font-weight: 600;
+}
+/***** RTL CSS******/
+[dir="rtl"] .hive_support_sidebar ul li::before {
+  left: auto;
+  right: 0;
+}
+[dir="rtl"] .hive_support_sidebar ul li {
+  border-radius: 0px 10px 10px 0px;
+}
+[dir="rtl"] .hs-has--submenu .logo {
+  margin-left: 0px;
+  margin-right: 30px;
+}
+[dir="rtl"] .hs-has--submenu .hs--nav-svg {
+  margin-right: auto !important;
+}
+[dir="rtl"] .hs--nav-svg {
+  margin-left: 30px !important;
+}
+[dir="rtl"] .hs-has--submenu .hs-nav-sub-item:before {
+  right: 65px !important;
+}

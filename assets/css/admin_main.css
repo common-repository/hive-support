@@ -1,0 +1,229 @@
+/*------------------------------------------------------------------
+Project: Hive Support
+Version: 0.0.1
+-------------------------------------------------------------------*/
+
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,700&display=swap");
+
+#wpbody-content {
+  padding-bottom: 0;
+}
+
+#wpfooter {
+  display: none;
+}
+
+.notice,
+div.error,
+div.updated,
+div.update-nag {
+  display: none;
+}
+
+.hive_lite_support_main {
+  background: #f3f3f3;
+  font-family: "Nunito", sans-serif;
+  font-size: 15px;
+  padding: 30px 15px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: start;
+  gap: 30px;
+}
+
+.hive_lite_support_main h1,
+.hive_lite_support_main h2,
+.hive_lite_support_main h3,
+.hive_lite_support_main h4,
+.hive_lite_support_main h5,
+.hive_lite_support_main h6 {
+  font-family: "Outfit", sans-serif;
+  margin: 0;
+}
+
+/* Loader */
+.hive_lite_support_body_loader {
+  position: fixed;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: -webkit-fill-available;
+  height: 80vh;
+}
+
+.hive_lite_support_loader,
+.hive_lite_support_loader:after {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+}
+
+.hive_lite_support_sidebar ul li a:focus {
+  box-shadow: none !important;
+}
+
+.hive_lite_support_sidebar_bottom_logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hive_lite_support_loader {
+  border-top: 8px solid #685be7;
+  border-right: 8px solid #cecddf;
+  border-bottom: 8px solid #cecddf;
+  border-left: 8px solid #685be7;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-animation: load8 1.1s infinite linear;
+  animation: load8 1.1s infinite linear;
+}
+
+@-webkit-keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+
+.color-picker-block-wrap {
+  display: flex;
+}
+.color-picker-block {
+  width: 35px;
+  height: 35px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  background: transparent;
+  border: 1px solid #c7c7c747;
+}
+.color-picker-btn {
+  width: 35px;
+  height: 35px;
+  background: #eeeeee;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  cursor: pointer;
+}
+.components-color-picker {
+  position: relative;
+}
+.components-color-picker {
+  position: absolute;
+  right: 90px;
+  z-index: 99;
+  top: -24px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.hive_lite_support_chat_widget_appearance_opt_wrap {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.hive_lite_support_chat_widget_appearance_options {
+  width: 100%;
+}
+.hive_lite_support_chat_widget_preview {
+  min-width: 450px;
+}
+.hive_lite_support_chat_widget_preview_inner {
+  background-color: #fff;
+  padding: 25px;
+}
+.hive_lite_support_chat_widget_preview .chatContact__contents,
+.hive_lite_support_chat_widget_preview .chatContact__btnWrapper {
+  position: initial;
+}
+.chatContact__nav_tab_wrapper {
+  padding: 20px;
+  /* box-shadow: 0 0 10px var(--box-shadow); */
+  box-shadow: 0 0 10px #42424257;
+}
+.chatContact__nav_tab {
+  position: sticky;
+  bottom: 0px;
+  width: 100%;
+  left: 0;
+  z-index: 10;
+  background: #fff;
+}
+.hive_lite_support_chat_widget_preview .chatContact__nav_tab_wrapper .row{
+display: flex;
+justify-content: space-between;
+gap:15px;
+}
+.hive_lite_support_chat_widget_preview .chatContact__nav_tab_wrapper .hs--tab-icon {
+  padding: 12px 25px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.chatContact__nav_tab_wrapper .hs--tab-icon:hover {
+  background: rgba(0, 0, 0, 0.07);
+}
+.hive_lite_support_chat_widget_preview .chatContact__contents__footer__input textarea {
+  height: 50px !important;
+  line-height: 20px;
+  padding: 10px 0px;
+}
+.hive_lite_support_chat_widget_preview .chatContact__contents__header__close {
+  width: 100%;
+}
+.hive_lite_support_chat_widget_preview .chatContact__contents__header__close__icon {
+  font-size: 24px;
+  line-height: 24px;
+  color: var(--white-text);
+  cursor: pointer;
+}
+.hive_lite_support_chat_widget_preview .close_chat {
+  background: transparent;
+  right: 0px;
+  height: 0;
+  top: 10px;
+  font-size: 75px;
+}
+.hive_lite_support_chat_widget_preview .chatContact__contents__head__title {
+  font-size: 20px;
+  font-weight: 600;
+}
+.hive_lite_support_chat_widget_preview .chatContact__contents__inner__chat__item__para.hs_front_chat__name {
+  background: transparent;
+  color: #252525 !important;
+}
+.hive_lite_support_chat_widget_preview .hs-chat-icon--wrapper {
+  width: 50px !important;
+  height: 50px !important;
+  gap: 0 !important;
+  padding: 0 !important;
+}
+.hive_lite_support_chat_widget_preview .chatReply__img img{
+  width: 42px;
+  height: 42px;
+  border-radius: 66px;
+  max-width: 42px;
+}
+.hive_lite_support_chat_widget_preview  .chatContact__contents__inner__chat__item {
+  align-items: normal;
+}
